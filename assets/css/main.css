@@ -1,0 +1,3024 @@
+
+ html, body{  width: 100%; height: 100%; padding: 0px; margin: 0px; font-family: 'antenna-cond' !important;}
+
+ @font-face{ 
+   font-family:'antenna-black';
+    src: url('../fonts/Antenna/Antenna-Bold.otf') format("truetype");
+}
+ @font-face{ 
+   font-family:'antenna-regular';
+    src: url('../fonts/Antenna/Antenna-Regular.otf') format("truetype");
+}
+ @font-face{ 
+   font-family:'antenna-cond';
+    src: url('../fonts/Antenna/AntennaCond-Regular.otf') format("truetype");
+}
+
+.parrafoCirPlastica{
+    margin: 10px;
+}
+.instalacionesEspacio{
+    margin: 10px;
+}
+.home_slider{
+    padding-bottom: 5px;
+}
+
+body {
+    font-size: 17px;
+}
+.map {
+
+    padding-bottom: 50%;
+}
+.mapa-tamaño{
+    min-height: 40px;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: white;
+    background-color: transparent;
+}
+header.large {
+    background-color: rgba(255, 255, 255, 0.1)!important;
+    color: black;
+    width: 100%;
+}
+header {
+  background-color: #c7c7c7;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+}
+header .nav li a {
+    color: #131212;
+    padding: 2px 12px 5px 12px;
+    display: block;
+    font-size: 16px;
+    text-transform: capitalize;
+    width: 100%;
+    text-align: left;
+    font-family: 'antenna-cond';
+
+}
+header .nav li a:hover {
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: 'antenna-cond';
+}
+header .nav li ul {
+    display: none;
+    position: fixed;
+}         
+.nav li:hover > ul {
+    display:block;
+}
+header ul, ol {
+    list-style:none;
+}
+
+header .submenu{
+    color: white;
+}
+
+.navbar {
+    position: relative;
+    min-height: 145px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+}
+.icono-posision{
+    top: -28px;
+    position: absolute;
+}
+
+.navbar-header{
+    margin-top: -34px;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #e7e7e7;
+    margin-top: -2px;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #131212;
+    margin-right: 9px;
+    font-size: 18px;
+    font-family: antenna-cond;
+    text-transform: capitalize;
+}
+.img_menu {
+    background: url(../img/home/icono.png) center left no-repeat;
+    min-height: 135px;
+    width: 307px;
+    margin-top: -22px;
+    padding-left: 50%;
+}
+header.small .img_menu {
+    background: url("../img/home/hospitaria-id-alt-navbar.png") center left no-repeat;
+    width: 600px;
+}
+header.small .nav li a {
+    color: black;
+    padding: 2px 12px 5px 12px;
+    display: block;
+    font-size: 16px;
+    text-transform: capitalize;
+    width: 100%;
+    text-align: left;
+}
+header {
+  background-color: #c7c7c7;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: white;
+    background-color: rgba(255, 255, 255, -0.2)!important;
+    text-decoration: underline;
+}
+.contacto {
+    background-color: rgba(255, 255, 255, -0.2)!important;
+    width: 104px;
+    height: 35px;
+    border: 1px solid #0f0e0e;
+    border-radius: 9px;
+    margin-top: -7%;
+}
+header.small .navbar-default {
+    text-transform: uppercase;
+    background-color: rgba(255, 255, 255, 0.8)!important;
+    border: none;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    min-height: 0px;
+}
+header.small .navbar-default .navbar-nav>li>a {
+    color: black;
+    margin-right: 9px;
+    font-size: 18px;
+    font-family: antenna-cond;
+    text-transform: capitalize;
+}
+header.small .menu_menu{
+  color:red;
+}
+header.small .menu_menu a{
+  color:red;
+}
+header.small {
+  background-color: rgba(255, 255, 255, 0.1)!important;
+  color: black;
+}
+header.small .reloj {
+    background: url("../img/home/urgencias-reloj-rojo-icon.png") center center no-repeat;
+    height: 60px;
+    width: 60px;
+}
+.reloj {
+    background: url("../img/home/urgencias-reloj-blanco-icon.png") center no-repeat;
+
+}
+header.small .text-right{
+    padding-top: 1px;
+}
+/* Transitions */
+.menu_menu a{
+    color: #f70404;
+}
+.navbar-default {
+    text-transform: uppercase;
+    background-color: rgba(255, 255, 255, 0.7)!important;
+    border: none;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.top-header {
+    color: #ef0d0d;
+    font-weight: bold;
+    padding: 1px 15px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.navbar-fixed-bottom, .navbar-fixed-top {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+.navbar-brand {
+    float: left;
+    height: 37px;
+    padding: 2px 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
+.text-right {
+    padding-top: 0px;
+}
+/* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+/*               SLIDER                         */
+/* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+.bx-wrapper {
+    position: relative;
+    margin-bottom: -7px !important;
+    padding: 0;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -moz-box-shadow: 0 0 5px #ccc;
+    -webkit-box-shadow: 0 0 5px #ccc;
+    box-shadow: 0 0 5px #ccc;
+    border: 0px solid #fff;
+    background: #fff;
+}
+.sec1-a {
+    background: url("../img/home/slider1.jpg") center right no-repeat;
+    background-size: cover;
+    width: 100%; 
+    min-height: 700px;
+}
+.sec1-b {
+    background: url("../img/especialidades/banner-trauma.jpg") center right no-repeat;
+    background-size: cover;
+    width: 100%; 
+    min-height: 700px;
+}
+.sec1-c {
+    background: url("../img/especialidades/cirugia-banner.jpg") center right no-repeat;
+    background-size: cover;
+    width: 100%; 
+    min-height: 700px;
+}
+.sec1-d {
+    background: url("../img/especialidades/pediatria-banner.jpg") center right no-repeat;
+    background-size: cover;
+    width: 100%; 
+    min-height: 700px;
+}
+.button-slider{
+    background-color: white;
+    color: black;
+    width: 180px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.icono-flecha{
+    padding-top: 90px;
+}
+.subtitle{
+    color: white;
+    font-family: 'antenna-black';
+    font-size: 25px;
+    padding-top: 90px;
+}
+.subtitle-abajo{
+    color: white;
+    font-size: 16px;
+}
+.bx-wrapper .bx-pager.bx-default-pager a.active, .bx-wrapper .bx-pager.bx-default-pager a:focus, .bx-wrapper .bx-pager.bx-default-pager a:hover {
+    background: white;
+}
+.line1{
+    font-family: 'antenna-black';
+    color: white;
+    font-size: 60px;
+}
+.line1{
+    position: absolute;
+    top: -10%;
+}
+.line2{
+    font-family:'antenna-regular';
+    font-size: 18px;
+    color: white;
+}
+.text-center{
+    padding-top: 40%;
+    margin-left: 10%;
+}
+/* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+/*                HOME                           */
+/* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+/* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+/*                sec1                          */
+/* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+.sec3-d1:hover {
+    background: url(../img/home/sec1.jpg) center center no-repeat;
+    background-size: cover;
+    height: 240px;
+}
+.green_bar {
+    background: #ff668c;
+    height: 240px;
+    margin: 0px;
+}
+.green_bar:hover {
+    background: url(../img/home/sec1.jpg) no-repeat center;
+    background-size: cover;
+    height: 240px;
+}
+.sec1-color{
+    background: #2aabde;
+    height: 240px;
+    margin: 0px;
+}
+.sec1-color:hover {
+    background: url(../img/home/maternidad-hover.jpg) no-repeat center center;
+    height: 240px;
+    background-size: cover;
+    margin: 0px;
+}
+.sec1-colo1{
+    background: #8ac242;
+    height: 240px;
+    margin: 0px;
+
+}
+.sec1-colo1:hover {
+    background: url(../img/home/cirujia-hover.jpg) no-repeat center center;
+    height: 240px;
+    background-size: cover;
+    margin: 0px;
+}
+.sec1-colo2{
+    background: #f27e1f;
+    height: 240px;
+    margin: 0px;
+}
+.sec1-colo2:hover {
+    background: url(../img/home/uci-hover.jpg) no-repeat center center;
+    height: 240px;
+    background-size: cover;
+    margin: 0px;
+}
+.sec1-color3{
+    background: #726ce0;
+    height: 240px;
+    margin: 0px;
+}
+.sec1-color3:hover {
+    background: url(../img/home/imagenologia-hover.jpg) no-repeat center center;
+    height: 240px;
+    background-size: cover;
+    margin: 0px;
+}
+.sec1-colo4{
+    background: #fa4b48;
+    height: 240px;
+    margin: 0px;
+}
+.sec1-colo4:hover {
+    background: url(../img/home/laboratorio-hover.jpg) no-repeat center center;
+    height: 240px;
+    background-size: cover;
+    margin: 0px;
+}
+/*sec2*/
+.sec2 .container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.sec2 img{
+    width: 100%;
+}
+.sec2-linea{
+    color: #eb4477;
+    font-family: 'antenna-regular';
+    font-size: 18px;
+}
+.sec2-linea hr {
+    color: black;
+    border: 1px solid #eb4477;
+}
+
+.sec2{
+    padding-bottom: 50px;
+}
+.pd0 {
+    padding: 0px;
+}
+.pd1 {
+    padding: 10px;
+}
+.pd2 {
+    padding: 4px;
+}
+.titulo {
+    font-family: 'antenna-cond';
+    font-size: 60px;
+    font-weight: 700;
+}
+.sec2-niño{
+    padding-top: 10%;
+}
+.img-niño{
+    background: url(../img/home/urgencias-nino-img.jpg)center left no-repeat;
+     min-height: 480px;
+}
+.button1 {
+    background-color: white;
+    color: #f04175;
+    width: 180px;
+    height: 40px;
+    border: 2px solid #f04175;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.button2 {
+    background-color: white;
+    color: #43acd9;
+    width: 180px;
+    height: 40px;
+    border: 2px solid #43acd9;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.cuadro{
+    background: url(../img/home/cuadro-chico-cyan-gpc.jpg)right center no-repeat;
+    min-height: 300px;
+}
+.sec3-bebe{
+    padding-top: 11%;
+}
+.sec3 {
+    /* padding-top: 0px; */
+    padding-bottom: 0px;
+    margin-top: -50px;
+}
+
+.sec3 .container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.bebePad {
+    padding-top: 110px;
+}
+.img-doc{
+    margin-top: -85px;
+}
+
+/*sec4*/
+.sec4{
+    background: url(../img/home/sec4.jpg)center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 655px;
+    padding: 0px;
+}
+.sec4-linea{
+    color: white;
+    font-family: 'antenna-cond';
+    font-size: 17px;
+}
+
+.sec4-linea hr{
+    margin-top: 1px;
+    width: 100%;
+}
+.sec4-top{
+    padding-top: 60px;
+    color: white;
+}
+.sec4-titulo {
+    font-family: 'antenna-cond';
+    font-size: 60px;
+    font-weight: 700;
+}
+.icono1{
+    background: url(../img/home/icono1.png)center left no-repeat;
+    min-height: 115px;
+}
+.sec4-icono1{
+    color: white;
+    font-family: 'antenna-regular'; 
+    padding-top: 5px;
+    font-size: 20px;
+}
+
+.sec4-linea1{
+    color: white;
+    font-size: 14px;
+}
+.sec4-linea1 hr{
+    margin-top: 1px;
+    width: 100%;
+}
+/*sec5*/
+.button5 {
+    background-color: white;
+    color: #565657;
+    width: 180px;
+    height: 40px;
+    border: 2px solid #565657;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.sec2-doc{
+    padding-top: 10%;
+}
+
+/*sec6*/
+.sec6{
+    background: url(../img/home/sec6.jpg)center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 700px;
+    padding: 0px;
+}
+/* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+/*                FOOTER                        */
+/* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+footer .textFooter{
+    font-size: 15px;
+}
+.sec-footer{
+    background: #3d708f;
+    padding-top: 30px;
+}
+.footer-nav a{
+    color: white;
+    font-family: 'antenna-regular';
+}
+.footer-texto{
+    color: #83b1cc;
+    padding-bottom: 10%;
+}
+.footer-texto a{
+    color: #83b1cc;
+    padding-bottom: 10%;
+}
+.footer-texto1{
+    color: white;
+    font-size: 20px;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    color: #7aa6c2;
+        background-color: #3d708f; 
+}
+.footerImg{
+    padding-bottom: 10%;
+}
+.line-footer{
+    background: #326078;
+    height: 45px;
+    padding-top: 10px;
+    color: #09476d;
+}
+.line-footer a{
+    background: #326078;
+    height: 45px;
+    padding-top: 10px;
+    color: #09476d;
+}
+/* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+/*      Celular Home, header, footer            */
+/* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+@media (max-width: 1400px) and (min-width: 990px) {
+    .sec2-line1 {
+        position: absolute;
+        top: 79px;
+        padding-left: 17%;
+    }
+    .sec1-a {
+        background: url("../img/home/slider1.jpg") center right no-repeat;
+        background-size: cover;
+        display: inline-block;
+        width: 100%; 
+        min-height: 490px;
+
+    }
+    .sec1-b {
+        background: url("../img/home/slider2.jpg") center right no-repeat;
+        background-size: cover;
+        display: inline-block;
+        width: 100%; 
+        min-height: 490px;
+    }
+    .sec1-c {
+        background: url("../img/home/slider3.jpg") center right no-repeat;
+        background-size: cover;
+        display: inline-block;
+        width: 100%; 
+        min-height: 490px;
+    }
+    .sec1-d {
+        background: url("../img/especialidades/pediatria-banner.jpg") center right no-repeat;
+        background-size: cover;
+        display: inline-block;
+        width: 100%; 
+        min-height: 490px;
+    }
+}
+@media (max-width: 780px) and (min-width: 480px) {
+    .img-doc{
+        margin-top: -13px;
+    }
+}
+@media (max-width: 479px) and (min-width: 0px) {
+    header.small .img_menu{
+        background: url("../img/home/logo-responsivo.png") center left no-repeat;
+        min-height: 200px;
+        width: 600px;
+    }
+    .img_menu {
+        background: url("../img/home/icono-responsive.png") center left no-repeat;
+        height: 200px;
+        width: 600px;
+        margin-top: -102px;
+    }
+    header.small  .top-header {
+        color: #fff;
+        font-weight: bold;
+        padding: 0px 0px;
+        font-size: 10px;
+        text-transform: uppercase;
+    }
+    .top-header {
+        color: #f10d0d;
+        font-weight: bold;
+        padding: 0px 0px;
+        font-size: 10px;
+        text-transform: uppercase;
+        padding-top: 0%;
+    }
+      header.small .reloj {
+        background: url("../img/home/urgencias-reloj-rojo-icon.png") center center no-repeat;
+        height: 0px;
+        width: 0px;
+    }
+    .reloj {
+        background: url("../img/home/urgencias-reloj-blanco-icon.png") center no-repeat;
+        height: 0px;
+        width: 0px;
+    }
+    .navbar-default {
+        text-transform: uppercase;
+        background-color: rgba(255, 255, 255, 0.7)!important;
+        -moz-border-radius: 0px;
+    }
+    .icono-flecha {
+        padding-top: 0px;
+        margin-top: -55px;
+        padding-left: 80%;
+    }
+    .icono1{
+        background: url(../img/home/icono1.png)center left no-repeat;
+        min-height: 115px;
+    }
+    .sec4-linea1 hr {
+        margin-top: 1px;
+        width: 72%;
+    }
+    .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        padding: 0%;
+    }
+    .respon-movil{
+        height: 115px;
+    }
+    .line-footer {
+        background: #326078;
+        min-height: 135px;
+        padding-top: 10px;
+        color: #09476d;
+    }
+    .pd0 {
+    /* padding: 0px; */
+    }
+    .sec4-icono1{
+        color: white;
+        font-family: 'antenna-regular'; 
+        padding-top: 5px;
+        font-size: 10px;
+    }
+    .sec4-linea1 {
+        color: white;
+        font-size: 10px;
+    }
+    .icono-posision {
+        top: -59px;
+        position: absolute;
+        margin-left: -17px;
+    }
+    .icono-nuevaN{
+       top: -59px;
+        position: fixed;
+    }
+}
+/* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+/*            Cirujia Plastica                  */
+/* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+.sec1-cirugia {
+    background: url("../img/especialidades/cirugia-banner.jpg") top center no-repeat;
+    background-size: cover;
+    width: 100%; 
+    min-height: 600px;
+}
+.especialidad-plastica{
+    color: white;
+    padding-top:  30%;
+    font-size: 60px;
+    font-family: 'antenna-black'; 
+}
+.sec3-img-plastica{
+    background: url("../img/especialidades/franja-plas.png") center center no-repeat;
+    background-size: cover;
+    width: 100%; 
+    min-height: 590px;
+    margin-top: -150px;
+}
+.contacto-plas{
+    background: url("../img/especialidades/banner2-plas.jpg") center center no-repeat;
+    background-size: cover;
+    width: 100%; 
+    min-height: 350px;
+    margin-top: 3%;
+}
+.sec1-lineaCirujia {
+    color: gray;
+    font-family: 'antenna-cond !important';
+    font-size: 17px;
+    font-weight: 700;
+}
+.sec1-lineaCirujia hr {
+    margin-top: 3px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 2px solid gray;
+}
+.tituloCirujia{
+    font-family: 'antenna-black';
+    font-size: 60px;
+    color: #26aade;
+}
+.titulohref{
+    font-family: 'antenna-black';
+    font-size: 20px;
+    color: #26aade;
+}
+.sec2Cirujia hr {
+    margin-top: 3px;
+    border: 0;
+    border-top: 2px solid gray;
+}
+.sec1Servicios{
+    font-size: 30px;
+    color: #9a9da1;
+    font-family: 'antenna-black'; 
+}
+.sec2Cirujia .sec2-doc {
+    padding-top: 115px;
+}
+.sec2-doc-trauma{
+    padding-top: 7%;
+    padding-bottom: 10%;
+}
+/* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+/*        Cirujia Plastica MOVIL                */
+/* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+@media (max-width: 1400px) and (min-width: 990px) {
+    .sec1-cirugia {
+        background: url("../img/especialidades/cirugia-banner.jpg") top center no-repeat;
+        background-size: cover;
+        width: 100%; 
+        min-height: 450px;
+    }
+    .especialidad-plastica{
+        color: white;
+        padding-top:  20%;
+        font-size: 60px;
+        font-family: 'antenna-black'; 
+    }
+    .sec3-img-plastica{
+        background: url("../img/especialidades/franja-plas.png") center center no-repeat;
+        background-size: cover;
+        width: 100%; 
+        min-height: 490px;
+        margin-top: -40px;
+    }
+}
+@media (max-width: 989px) and (min-width: 768px) {}
+@media (max-width: 767px) and (min-width: 480px) {}
+@media (max-width: 479px) and (min-width: 0px) {
+    .sec1-cirugia {
+        background: url(../img/especialidades/cirugia-banner.jpg) top center no-repeat;
+        background-size: cover;
+        width: 100%;
+        min-height: 300px;
+    }
+    .sec2Cirujia .sec2-doc {
+        padding-top: 0px;
+    }
+}
+/* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+/*             Especialidades                   */
+/* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+.sec1-especialidades {
+    background: url("../img/especialidades/especialidadesBanner.jpg") top right no-repeat;
+    background-size: cover;
+    width: 100%; 
+    min-height: 600px;
+    margin-bottom: -6px;
+}
+.especialidad{
+    color: white;
+    padding-top:  30%;
+    font-size: 60px;
+    font-family: 'antenna-black'; 
+
+}
+.especialidadEspe {
+    color: white;
+    font-size: 60px;
+    font-family: 'antenna-black';
+    padding-top: 30%;
+}
+.especialidad-contacto{
+    color: white;
+    padding-top:  300px;
+    font-size: 60px;
+    font-family: 'antenna-black'; 
+}
+.especialidad1{
+    color: white;
+    padding-top: 1%;
+    font-size: 20px;
+    font-family: 'antenna-regular'; 
+}
+.parrafo-especialidades {
+    font-size: 20px;
+    font-family: 'antenna-cond !important';
+}
+.sec2Especialidades{
+    padding-bottom: 5%; 
+}
+.parrafo-center{
+    color: #555759;
+    font-size: 30px;
+    font-weight: 700;
+}
+.contacto-new{
+    background: url("../img/especialidades/banner2.jpg") center center no-repeat;
+    background-size: cover;
+    width: 100%; 
+    min-height: 300px;
+    margin-top: 5%;
+}
+.text1-contacto{
+    color: white;
+    padding-top: 90px;
+    font-size: 60px;
+    text-align: center;
+}
+.cir_general {
+    background: #cc436c;
+    height: 240px;
+    margin: 0px;
+}
+.cir_general:hover {
+    background: url(../img/especialidades/hover/serv-1.jpg) no-repeat center;
+    background-size: cover;
+    height: 240px;
+}
+.gine-obste {
+    background: #65aadb;
+    height: 240px;
+    margin: 0px;
+}
+.gine-obste:hover {
+    background: url(../img/especialidades/hover/serv-2.jpg) no-repeat center;
+    background-size: cover;
+    height: 240px;
+}
+.cirugi-plastic {
+    background: #9ac24f;
+    height: 240px;
+    margin: 0px;
+}
+.cirugi-plastic:hover {
+    background: url(../img/especialidades/hover/serv-3.jpg) no-repeat center;
+    background-size: cover;
+    height: 240px;
+}
+.cirugi-plastic {
+    background: #9ac24f;
+    height: 240px;
+    margin: 0px;
+}
+.cirugi-plastic:hover {
+    background: url(../img/especialidades/hover/serv-3.jpg) no-repeat center;
+    background-size: cover;
+    height: 240px;
+}
+.gastro-ente {
+    background: #d97d2e;
+    height: 240px;
+    margin: 0px;
+}
+.gastro-ente:hover {
+    background: url(../img/especialidades/hover/serv-4.jpg) no-repeat center;
+    background-size: cover;
+    height: 240px;
+}
+.med-icina {
+    background: #6d69db;
+    height: 240px;
+    margin: 0px;
+}
+.med-icina:hover {
+    background: url(../img/especialidades/hover/serv-5.jpg) no-repeat center;
+    background-size: cover;
+    height: 240px;
+}
+.pedia-tria {
+    background: #db4d4d;
+    height: 240px;
+    margin: 0px;
+}
+.pedia-tria:hover {
+    background: url(../img/especialidades/hover/serv-6.jpg) no-repeat center;
+    background-size: cover;
+    height: 240px;
+}
+.trauma-ortoped {
+    background: #cc436c;
+    height: 240px;
+    margin: 0px;
+}
+.trauma-ortoped:hover {
+    background: url(../img/especialidades/hover/serv-7.jpg) no-repeat center;
+    background-size: cover;
+    height: 240px;
+}
+.uro-logia {
+    background: #65aadb;
+    height: 240px;
+    margin: 0px;
+}
+.uro-logia:hover {
+    background: url(../img/especialidades/hover/serv-8.jpg) no-repeat center;
+    background-size: cover;
+    height: 240px;
+}
+.cardiol-ogia {
+    background: #9ac24f;
+    height: 240px;
+    margin: 0px;
+}
+.cardiol-ogia:hover {
+    background: url(../img/especialidades/hover/serv-9.jpg) no-repeat center;
+    background-size: cover;
+    height: 240px;
+}
+.oftan-mologia {
+    background: #d97d2e;
+    height: 240px;
+    margin: 0px;
+}
+.oftan-mologia:hover {
+    background: url(../img/especialidades/hover/serv-10.jpg) no-repeat center;
+    background-size: cover;
+    height: 240px;
+}
+.otra-espe {
+    background: #6d69db;
+    height: 240px;
+    margin: 0px;
+}
+.otra-espe:hover {
+    background: url(../img/especialidades/hover/serv-11.jpg) no-repeat center;
+    background-size: cover;
+    height: 240px;
+}
+@media (max-width: 1400px) and (min-width: 990px) {
+    .sec1-especialidades {
+        background: url(../img/especialidades/especialidadesBanner.jpg) top center no-repeat;
+        background-size: cover;
+        width: 100%;
+        min-height: 500px;
+        margin-bottom: 0px;
+    }
+}
+@media (max-width: 989px) and (min-width: 768px) {}
+@media (max-width: 767px) and (min-width: 480px) {}
+@media (max-width: 479px) and (min-width: 0px) {
+    .sec1-especialidades {
+        background: url(../img/especialidades/especialidadesBanner.jpg) top center no-repeat;
+        background-size: cover;
+        width: 100%;
+        min-height: 350px;
+    }
+}
+/* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+/*             Cirugia General                  */
+/* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+.sec1-cirugia-general{
+    background: url("../img/especialidades/cirugia-general-banner.jpg") top center no-repeat;
+    background-size: cover;
+    width: 100%; 
+    min-height: 600px;
+}
+.sec2-C-general {
+    padding-top: 115px;
+}
+.sec3-img{
+    background: url("../img/especialidades/franja.png") center center no-repeat;
+    background-size: cover;
+    width: 100%; 
+    min-height: 650px;
+    padding-top: 220px;
+    margin-top: -90px;
+}
+/* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+/*                Celular                       */
+/* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+@media (max-width: 1400px) and (min-width: 990px) {
+    .sec1-cirugia-general{
+        background: url("../img/especialidades/cirugia-general-banner.jpg") top center no-repeat;
+        background-size: cover;
+        width: 100%; 
+        min-height: 450px;
+    }
+    .sec2-C-general {
+        padding-top: 75px;
+    }
+    .sec3-img {
+        background: url(../img/especialidades/franja.png) center center no-repeat;
+        background-size: cover;
+        width: 100%;
+        min-height: 500px;
+        padding-top: 184px;
+    }
+}
+/* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+/*                admision                       */
+/* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+.sec1-admision{
+    background: url("../img/admision/banner.jpg") top center no-repeat;
+    background-size: cover;
+    width: 100%; 
+    min-height: 400px;
+}
+.sec1-admision .admision-contacto {
+    color: white;
+    padding-top: 250px;
+    font-size: 28px;
+    font-family: 'antenna-regular';
+}
+.sec1-admisionFormularioN {
+    background: url(../img/admision/banner.jpg) top center no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 700px;
+    margin-top: 50px;
+}
+.contacto-admision {
+    background: url(../img/admision/franja.jpg) center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 400px;
+}
+.admision-contacto {
+    color: white;
+    padding-top: 50px;
+    font-size: 16px;
+    font-family: 'antenna-regular';
+}
+.fondo-admision {
+    background: rgba(224, 232, 237, 0.9)!important;
+    background-size: cover;
+    width: auto;
+    min-height: 260px;
+    color: black;
+    padding-top: 30px;
+    border-radius: 9px;
+}
+.tituloFormulario{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+.fondo-admision .btn {
+    display: inline-block;
+    padding: 6px 81px !important;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.fondoShowDiv{
+    background: #26aade;
+}
+.subtitleShow {
+    color: white;
+    font-family: 'antenna-black';
+    font-size: 25px;
+}
+/* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+/*                Celular                       */
+/* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+@media (max-width: 1400px) and (min-width: 990px) {
+    .sec1-admision{
+        background: url("../img/admision/banner.jpg") top center no-repeat;
+        background-size: cover;
+        width: 100%; 
+        min-height: 400px;
+    }
+    .admision-contacto {
+        color: white;
+        padding-top: 50px;
+        font-size: 16px;
+        font-family: 'antenna-regular';
+    }
+
+}
+/* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+/*                Urología                       */
+/* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+.sec1-urologia{
+    background: url("../img/especialidades/urologia-banner.jpg") top center no-repeat;
+    background-size: cover;
+    width: 100%; 
+    min-height: 600px;
+}
+.sec3-urologia{
+    background: url("../img/especialidades/urologia-franja.png") center center no-repeat;
+    background-size: cover;
+    width: 100%; 
+    min-height: 650px;
+    margin-top: -118px;
+}
+.contacto-urologia{
+    background: url("../img/especialidades/urolog-banner2.jpg") top center no-repeat;
+    background-size: cover;
+    width: 100%; 
+    min-height: 450px;
+    margin-top: 3%;
+}
+/* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+/*                Traumatologia                 */
+/* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+.sec1-trauma{
+    background: url("../img/especialidades/trauma-banner.jpg") top center no-repeat;
+    background-size: cover;
+    width: 100%; 
+    min-height: 600px;
+}
+.sec3-img-trauma{
+    background: url("../img/especialidades/franja-trauma.png") center center no-repeat;
+    background-size: cover;
+    width: 100%; 
+    min-height: 650px;
+    margin-top: -70px;
+}
+.sec1trauma{
+    padding-top: 150px;
+    font-size: 16px;
+}
+.sec1trauma1{
+    padding-top: 130px;
+    font-size: 20px;
+    color: #d67f2d;
+    font-family: 'antenna-black'; 
+}
+.contacto-trauma{
+    background: url("../img/especialidades/banner-trauma2.jpg") top center no-repeat;
+    background-size: cover;
+    width: 100%; 
+    min-height: 450px;
+    margin-top: 3%;
+}
+.text1-contacto-trauma{
+    color: white;
+    padding-top: 100px;
+    font-size: 60px;
+    text-align: center;
+}
+/***********************************Celular***********************************/
+@media (max-width: 1400px) and (min-width: 990px) {
+    .sec1-urologia{
+        background: url("../img/especialidades/urologia-banner.jpg") top center no-repeat;
+        background-size: cover;
+        width: 100%; 
+        min-height: 450px;
+    }
+    .sec1-trauma{
+        background: url("../img/especialidades/trauma-banner.jpg") top center no-repeat;
+        background-size: cover;
+        width: 100%; 
+        min-height: 450px;
+    }
+    .sec3-img-trauma{
+        background: url("../img/especialidades/franja-trauma.png") center  no-repeat;
+        background-size: cover;
+        width: 100%; 
+        min-height: 500px;
+        margin-top: -10px;
+    }
+    .contacto-trauma{
+        background: url("../img/especialidades/banner-trauma2.jpg") top center no-repeat;
+        background-size: cover;
+        width: 100%; 
+        min-height: 400px;
+        margin-top: 3%;
+    }
+    .text1-contacto-trauma{
+        color: white;
+        padding-top: 106px;
+        font-size: 60px;
+        text-align: center;
+    }
+}
+@media (max-width: 989px) and (min-width: 768px) {}
+@media (max-width: 767px) and (min-width: 480px) {}
+@media (max-width: 479px) and (min-width: 0px) {}
+/* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+/*                CHECK UPS                     */
+/* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+.sec1-check {
+    background: url("../img/servicios-medicos/check-banner.jpg") center center no-repeat;
+    background-size: cover;
+    display: inline-block;
+    width: 100%; 
+    min-height: 600px;
+}
+.sub-medicInterna{
+    padding-left: 5%;
+}
+.sec2-doc{
+    padding-top: 7%;
+    padding-bottom: 30%;
+}
+.sec2Check hr {
+    margin-top: 3px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 2px solid gray;
+}
+.sec2Check .sec2-chec {
+    padding-top: 70px;
+    font-family: 'antenna-regular' !important; 
+}
+.parrafo-check{
+    font-size: 14px;
+}
+.sec2Check{
+    margin-bottom: 20px;
+}
+/* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+/*                Cardiologia                   */
+/* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+.especialidadCardiologia {
+    color: white;
+    font-size: 60px;
+    font-family: 'antenna-black';
+    padding-top: 22%;
+}
+.sec1-cardiologia {
+    background: url("../img/especialidades/cardiologia-banner.jpg") center right no-repeat;
+    background-size: cover;
+    width: 100%; 
+    min-height: 600px;
+}
+.seccardiologia {
+    padding-top: 170px;
+    font-size: 18px;
+}
+.contacto-cardiologia{
+    background: url("../img/especialidades/cardiologia-banner-2.jpg") center center no-repeat;
+    background-size: cover;
+    width: 100%; 
+    min-height: 400px;
+    margin-top: -115px;
+}
+.sec3-cardiologia1 {
+    background: url(../img/especialidades/cardiologia-franja.png) center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 607px;
+    margin-top: -116px;
+    margin-bottom: 8%;
+}
+@media (max-width: 1400px) and (min-width: 990px) {
+    .bebePad {
+        padding-top: 7px;
+    }
+    .sec2-line1 {
+        position: absolute;
+        top: 79px;
+        padding-left: 17%;
+    }
+    .sec1-cardiologia {
+        background: url("../img/especialidades/cardiologia-banner.jpg") center right no-repeat;
+        background-size: cover;
+        width: 100%; 
+        min-height: 450px;
+    }
+    .especialidadCardiologia {
+        color: white;
+        font-size: 60px;
+        font-family: 'antenna-black';
+        padding-top: 22%;
+    }
+    .sec3-cardiologia1 {
+        background: url(../img/especialidades/cardiologia-franja.png) center center no-repeat;
+        background-size: cover;
+        width: 100%;
+        min-height: 493px;
+        margin-top: -116px;
+        margin-bottom: 8%;
+    }
+}
+@media (max-width: 989px) and (min-width: 768px) {}
+@media (max-width: 767px) and (min-width: 480px) {}
+@media (max-width: 479px) and (min-width: 0px) {
+    .sec1-cardiologia {
+        background: url("../img/especialidades/cardiologia-banner.jpg") center right no-repeat;
+        background-size: cover;
+        display: inline-block;
+        width: 100%; 
+        min-height: 400px;
+    }
+    .sec2Check .sec2-chec {
+        padding-top: 0px;
+        font-family: 'antenna-regular' !important;
+    }
+}
+/* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+/*                Certificaciones               */
+/* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+.sec1-certificaciones {
+    background: url("../img/nosotros/certificaciones-banner.jpg") top right no-repeat;
+    background-size: cover;
+    display: inline-block;
+    width: 100%; 
+    min-height: 500px;
+}
+.fotoCertiTam{
+    margin-left: 10%;
+}
+.sec2Check p {
+    margin-bottom: 20px;
+    padding-top: 2px;
+    font-family: 'antenna-cond' !important;
+    font-size: 18px;
+}
+.sec3Check p {
+    margin-bottom: 20px;
+    padding-top: 2px;
+    font-family: 'antenna-cond' !important;
+    font-size: 19px;
+}
+.sec3Check  {
+    padding-top: 50px;
+}
+.cardiologia{
+    color: white;
+    padding-top: 1%;
+    font-size:18px;
+    padding-left: 35%;
+    width: 800px;
+}
+/* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+/*                SERVICIOS MEDICOS             */
+/* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+.sec1-servicios-med {
+    background: url("../img/servicios-medicos/servicios-med-banner.jpg") center right no-repeat;
+    background-size: cover;
+    width: 100%; 
+    min-height: 550px;
+}
+.servicios-med{
+    color: white;
+    padding-left: 10%;
+    text-align: center;
+    padding-top: 1%;
+    font-size: 20px;
+}
+.especialidadMedico {
+    color: white;
+    font-size: 60px;
+    font-family: 'antenna-black';
+    padding-top: 30%;
+}
+.sec2-servicios-med{
+    padding-bottom: 3%; 
+}
+.parrafo-servicios-med {
+    font-size: 20px;
+    font-family: 'antenna-regular !important';
+}
+.parrafo-servicios-med1 {
+    font-size: 20px;
+    font-family: 'antenna-black !important';
+}
+.parrafo-servicios-med1 {
+    font-size: 27px;
+    font-weight: 700;
+    color: #64686b;
+}
+.sec2-servicios-med a:focus, a:hover {
+    color: black;
+    text-decoration: none;
+}
+.sec2-servicios-med a {
+    color: #64686b;
+    text-decoration: none;
+    font-size: 20px;
+}
+.sec2-medi {
+    padding-top: 8%;
+}
+.sec2-medi a{
+    padding-top: 8%;
+    color: black;
+}
+.sec2servicios-med hr {
+    margin-top: 3px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 2px solid gray;
+}
+.sec2servicios-med .sec2-servicios-med {
+    padding-top: 138px;
+    font-family: 'antenna-regular' !important; 
+}
+.parrafo-servicios-med{
+    font-family: 'antenna-cond !important'; 
+    font-size: 18px;
+}
+.sec2servicios-med{
+    margin-bottom: 20px;
+}
+.sec1-terapias-uci{
+    background: url("../img/servicios-medicos/terapias-uci-banner.jpg") center left no-repeat;
+    background-size: cover;
+    display: inline-block;
+    width: 100%; 
+    min-height: 600px;
+}
+.sec1-urgencias{
+    background: url("../img/servicios-medicos/urgencias-banner.jpg") center center no-repeat;
+    background-size: cover;
+    width: 100%; 
+    min-height: 600px;
+}
+.materni-dad {
+    background: #ed4270;
+    height: 240px;
+    margin: 0px;
+}
+.materni-dad:hover {
+    background: url(../img/servicios-medicos/serv-1.jpg) no-repeat center;
+    background-size: cover;
+    height: 240px;
+}
+.urgen-cias {
+    background: #2aabde;
+    height: 240px;
+    margin: 0px;
+}
+.urgen-cias:hover {
+    background: url(../img/servicios-medicos/serv-2.jpg) no-repeat center;
+    background-size: cover;
+    height: 240px;
+}
+.terapias-uci {
+    background: #8ac242;
+    height: 240px;
+    margin: 0px;
+}
+.terapias-uci:hover {
+    background: url(../img/servicios-medicos/serv-3.jpg) no-repeat center;
+    background-size: cover;
+    height: 240px;
+}
+.imageno-logia {
+    background: #f27e1f;
+    height: 240px;
+    margin: 0px;
+}
+.imageno-logia:hover {
+    background: url(../img/servicios-medicos/serv-4.jpg) no-repeat center;
+    background-size: cover;
+    height: 240px;
+}
+.hospita-quiro {
+    background: #726ce0;
+    height: 240px;
+    margin: 0px;
+}
+.hospita-quiro:hover {
+    background: url(../img/servicios-medicos/serv-5.jpg) no-repeat center;
+    background-size: cover;
+    height: 240px;
+}
+.nutri-cion {
+    background: #fa4b48;
+    height: 240px;
+    margin: 0px;
+}
+.nutri-cion:hover {
+    background: url(../img/servicios-medicos/serv-6.jpg) no-repeat center;
+    background-size: cover;
+    height: 240px;
+}
+.labora-torio {
+    background: #ed4270;
+    height: 240px;
+    margin: 0px;
+}
+.labora-torio:hover {
+    background: url(../img/servicios-medicos/serv-7.jpg) no-repeat center;
+    background-size: cover;
+    height: 240px;
+}
+.check-ups {
+    background: #2aabde;
+    height: 240px;
+    margin: 0px;
+}
+.check-ups:hover {
+    background: url(../img/servicios-medicos/serv-8.jpg) no-repeat center;
+    background-size: cover;
+    height: 240px;
+}
+/**************************************CELULAR*************************************/
+@media (max-width: 1400px) and (min-width: 990px) {
+    .sec1-urgencias{
+        background: url("../img/servicios-medicos/urgencias-banner.jpg") center center no-repeat;
+        background-size: cover;
+        /*display: inline-block;*/
+        width: 100%; 
+        min-height: 400px;
+    }
+    .sec1-servicios-med {
+        background: url("../img/servicios-medicos/servicios-med-banner.jpg") center right no-repeat;
+        background-size: cover;
+        width: 100%; 
+        min-height: 500px;
+    }
+    .especialidadMedico {
+        color: white;
+        font-size: 60px;
+        font-family: 'antenna-black';
+        padding-top: 27%;
+    }
+}
+@media (max-width: 989px) and (min-width: 768px) {}
+@media (max-width: 767px) and (min-width: 480px) {}
+@media (max-width: 479px) and (min-width: 0px) {
+    .sec1-servicios-med {
+        background: url(../img/servicios-medicos/servicios-med-banner.jpg) top center no-repeat;
+        background-size: cover;
+        width: 100%;
+        min-height: 350px;
+    }
+    .especialidadMedico {
+        color: white;
+        font-size: 30px;
+        font-family: 'antenna-black';
+        padding-top: 55%;
+    }
+}
+/* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+/*                Imagenología                  */
+/* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+.sec1-imagenologia {
+    background: url("../img/servicios-medicos/imagenologia-banner.jpg") center right no-repeat;
+    background-size: cover;
+    display: inline-block;
+    width: 100%; 
+    min-height: 600px;
+}
+.parrafo-imagenologia {
+    font-size: 18px;
+    font-family: 'antenna-cond' !important;
+}
+.sec2imagenologia .parrafo-imagenologia ol, ul {
+    font-size: 20px;
+    font-family: 'antenna-cond';
+}
+.sec2imagenologia{
+    padding-bottom: 5%; 
+}
+.imagenologia1{
+    color: white;
+    padding-top: 1%;
+    font-size: 20px;
+    font-family: 'antenna-regular'; 
+}
+.sec2Imagenologia hr {
+    margin-top: 3px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 2px solid gray;
+}
+.sec2imagenologia .sec2-imagenologia {
+    padding-top: 138px;
+    font-family: 'antenna-regular' !important; 
+}
+
+.sec2imagenologia{
+    margin-bottom: 20px;
+}
+/* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+/*                nosotros                      */
+/* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+.sec1-nosotros {
+    background: url("../img/nosotros/banner.jpg") center left no-repeat;
+    background-size: cover;
+    width: 100%; 
+    min-height: 550px;
+}
+.sec2-quienes {
+    padding-top: 7%;
+}
+.sec2quienes{
+    padding-bottom: 5%; 
+}
+.nosotros-espe {
+    color: white;
+    padding-top: 35%;
+    font-size: 60px;
+    font-family: 'antenna-black';
+}
+.quienes-somos {
+    background: #ff668c;
+    height: 240px;
+    margin: 0px;
+}
+.quienes-somos:hover {
+    background: url(../img/nosotros/ser-1.jpg) no-repeat center;
+    background-size: cover;
+    height: 240px;
+}
+.instala-ciones {
+    background: #65aadb;
+    height: 240px;
+    margin: 0px;
+}
+.instala-ciones:hover {
+    background: url(../img/nosotros/serv-2.jpg) no-repeat center;
+    background-size: cover;
+    height: 240px;
+}
+.certi-fica {
+    background: #9ac24f;
+    height: 240px;
+    margin: 0px;
+}
+.certi-fica:hover {
+    background: url(../img/nosotros/serv-3.jpg) no-repeat center;
+    background-size: cover;
+    height: 240px;
+}
+@media (max-width: 1400px) and (min-width: 990px) {
+    .sec1-nosotros {
+        background: url("../img/nosotros/banner.jpg") center left no-repeat;
+        background-size: cover;
+        width: 100%; 
+        min-height: 500px;
+    }
+    .nosotros-espe {
+        color: white;
+        padding-top: 350px;
+        font-size: 60px;
+        font-family: 'antenna-black';
+    }
+}
+@media (max-width: 989px) and (min-width: 768px) {}
+@media (max-width: 767px) and (min-width: 480px) {
+
+}
+@media (max-width: 479px) and (min-width: 0px) {
+    .sec1-nosotros {
+        background: url(../img/nosotros/banner.jpg) center left no-repeat;
+        background-size: cover;
+        width: 100%;
+        min-height: 350px;
+        margin-bottom: -23px;
+    }
+    .nosotros-espe {
+        color: white;
+        padding-top: 50%;
+        font-size: 50px;
+        font-family: 'antenna-black';
+    }
+}
+/* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+/*            Quienes Somos                     */
+/* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+.sec1-quienes-somos {
+    background: url("../img/nosotros/quinesSomos/banner.jpg") center left no-repeat;
+    background-size: cover;
+    width: 100%; 
+    min-height: 600px;
+}
+.sec1-urgencias-banner {
+    background: url("../img/servicios-medicos/urgencias-banner.jpg") center left no-repeat;
+    background-size: cover;
+    width: 100%; 
+    min-height: 600px;
+}
+.quienesSomos {
+    padding-top: 70px;
+    font-family: 'antenna-regular' !important; 
+}
+.especialidadQuienes {
+    color: white;
+    font-size: 60px;
+    font-family: 'antenna-black';
+    padding-top: 320px;
+}
+.sec1quienesS{
+    padding-top: 190px;
+    font-size: 20px;
+    color: #525557;
+}
+.contacto-urgencias{
+    background: url("../img/nosotros/urgencias/banner2.jpg") center center no-repeat;
+    background-size: cover;
+    width: 100%; 
+    min-height: 400px;
+    margin-top: 1%;
+}
+.sec3-img-urgencias{
+    background: url("../img/nosotros/urgencias/franja.png") center center no-repeat;
+    background-size: cover;
+    width: 100%; 
+    min-height: 650px;
+    margin-top: -115px;
+}
+.parrafo-quienes {
+    line-height: 29px;
+}
+.contacto-quienes{
+    background: url("../img/nosotros/quinesSomos/banner2.jpg") top center no-repeat;
+    background-size: cover;
+    width: 100%; 
+    min-height: 450px;
+    margin-top: 0px;
+}
+.text1-contacto-quienes{
+    color: white;
+    padding-top: 100px;
+    font-size: 60px;
+    text-align: center;
+}
+@media (max-width: 1400px) and (min-width: 990px) {
+    .sec1-quienes-somos {
+        background: url("../img/nosotros/quinesSomos/banner.jpg") center left no-repeat;
+        background-size: cover;
+        width: 100%; 
+        min-height: 470px;
+    }
+    .sec1-urgencias-banner {
+        background: url("../img/servicios-medicos/urgencias-banner.jpg") center left no-repeat;
+        background-size: cover;
+        width: 100%; 
+        min-height: 450px;
+    }
+    .text1-contacto-quienes{
+        color: white;
+        padding-top: 50px;
+        font-size: 60px;
+        text-align: center;
+    }
+    .especialidadQuienes {
+        color: white;
+        font-size: 60px;
+        font-family: 'antenna-black';
+        padding-top: 220px;
+    }
+}
+@media (max-width: 989px) and (min-width: 768px) {}
+@media (max-width: 767px) and (min-width: 480px) {}
+@media (max-width: 479px) and (min-width: 0px) {}
+/* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+/*            Instalaciones                     */
+/* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+.sec1-instalaciones{
+    background: url("../img/nosotros/instalaciones-banner.jpg") top center no-repeat;
+    background-size: cover;
+    width: 100%; 
+    min-height: 600px;
+}
+.parrafo-insta{
+    font-size: 18px;
+}
+.sec1-instalaciones-2{
+    padding-top: 0px;
+    font-size: 15px;
+    color: #525557;
+    font-family: 'antenna-black'; 
+}
+.contacto-instalaciones{
+    background: url("../img/nosotros/bannerInstalaciones.jpg") center center no-repeat;
+    background-size: cover;
+    width: 100%; 
+    min-height: 450px;
+}
+/* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+/*            Terapias-Uci                      */
+/* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+.sec3-TerapiasUci{
+    background: url("../img/terapias-uci/franja.png") center center no-repeat;
+    background-size: cover;
+    width: 100%; 
+    min-height: 650px;
+    margin-top: -115px;
+}
+.parrafo-insta{
+    font-size: 18px;
+}
+.sec1-instalaciones-2{
+    padding-top: 0px;
+    font-size: 15px;
+    color: #525557;
+    font-family: 'antenna-black'; 
+}
+.contacto-TerapiasUci{
+    background: url("../img/terapias-uci/banner2.jpg") center center no-repeat;
+    background-size: cover;
+    width: 100%; 
+    min-height: 450px;
+}
+.textoTerapiasUci{
+    padding-top: 100px;
+    font-size: 20px;
+    color: #525557;
+}
+/* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+/*           Medicina Interna                   */
+/* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+.sec1-medicInterna{
+    background: url("../img/especialidades/medicina-interna.jpg") top center no-repeat;
+    background-size: cover;
+    width: 100%; 
+    min-height: 600px;
+}
+.contacto-medicInterna{
+    background: url("../img/especialidades/medicInterna.jpg") top center no-repeat;
+    background-size: cover;
+    width: 100%; 
+    min-height: 450px;
+    margin-top: 3%;
+}
+.sec3-medicInterna{
+    background: url("../img/especialidades/medicina-interna-franja.png") center center no-repeat;
+    background-size: cover;
+    width: 100%; 
+    min-height: 520px;
+    margin-top: -118px;
+}
+.sec1medicInterna-text {
+    padding-top: 143px;
+    font-size: 15px;
+    color: #525557;
+    font-family: 'antenna-black';
+}
+
+@media (max-width: 1400px) and (min-width: 990px) {
+    .sec1-medicInterna{
+        background: url("../img/especialidades/medicina-interna.jpg") top center no-repeat;
+        background-size: cover;
+        width: 100%; 
+        min-height: 450px;
+    }
+    .sec1medicInterna-text {
+        padding-top: 143px;
+        font-size: 15px;
+        color: #525557;
+        font-family: 'antenna-black';
+    }
+}
+@media (max-width: 989px) and (min-width: 768px) {}
+@media (max-width: 767px) and (min-width: 480px) {}
+@media (max-width: 479px) and (min-width: 0px) {}
+/* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+/*          Materidad                           */
+/* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+.sec1-maternidad {
+    background: url("../img/servicios-medicos/maternidad-banner.jpg") center right no-repeat;
+    background-size: cover;
+    display: inline-block;
+    width: 100%; 
+    min-height: 400px;
+}
+.parrafo-maternidad{
+    font-size: 14px;
+}
+.sec2Check .maternidad {
+    padding-top: 25%;
+    font-family: 'antenna-regular' !important; 
+}
+.sec1-maternidadText{
+    font-size: 30px;
+    color: #535759;
+    font-family: 'antenna-black'; 
+}
+.tituloMaternidad{
+    font-family: 'antenna-black';
+    font-size: 30px;
+    color: #26aade;
+}
+.textoUltimo{
+    font-family: 'antenna-cond';
+    font-size: 15px;
+    color: #26aade;
+}
+/* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+/*          Ginecologia                           */
+/* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+.sec1-gine {
+    background: url("../img/especialidades/gine-banner.jpg")no-repeat;
+    background-size: cover;
+    width: 100%; 
+    min-height: 600px;
+}
+.sec1gine1{
+    padding-top: 150px;
+    font-size: 30px;
+    color: #525557;
+    font-family: 'antenna-black'; 
+}
+.sec1gine2{
+    padding-top: 100px;
+    font-size: 15px;
+    color: #525557;
+    font-family: 'antenna-black'; 
+}
+.sec3-img-gine{
+    background: url("../img/especialidades/franjagine.png") center center no-repeat;
+    background-size: cover;
+    width: 100%; 
+    min-height: 650px;
+    margin-top: -115px;
+}
+.contacto-gine{
+    background: url("../img/especialidades/banner-2-gine.jpg") center center no-repeat;
+    background-size: cover;
+    width: 100%; 
+    min-height: 300px;
+    margin-top: 1%;
+}
+/* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+/*          Gastroenterología                   */
+/* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+.sec1-gastro {
+    background: url("../img/especialidades/gastro-banner.jpg") top center no-repeat;
+    background-size: cover;
+    width: 100%; 
+    min-height: 600px;
+}
+.sec1gastro-text{
+    padding-top: 175px;
+    font-size: 15px;
+    color: #525557;
+    font-family: 'antenna-black'; 
+}
+.sec3-img-gastro{
+    background: url("../img/especialidades/gastro-franja.png") center center no-repeat;
+    background-size: cover;
+    width: 100%; 
+    min-height: 650px;
+    margin-top: -118px;
+}
+.contacto-gastro{
+    background: url("../img/especialidades/gastro-banner2.jpg") top center no-repeat;
+    background-size: cover;
+    width: 100%; 
+    min-height: 450px;
+    margin-top: 3%;
+}
+/********************************************CELULAR********************************************/
+@media (max-width: 1400px) and (min-width: 990px) {
+    .sec1-gastro {
+        background: url("../img/especialidades/gastro-banner.jpg") center center no-repeat;
+        background-size: cover;
+        width: 100%; 
+        min-height: 450px;
+    }
+    .sec3-img-gastro{
+        background: url("../img/especialidades/gastro-franja.png") center center no-repeat;
+        background-size: cover;
+        width: 100%; 
+        min-height: 500px;
+        margin-top: -85px;
+    }
+    .sec1gastro-text {
+        padding-top: 170px;
+        font-size: 15px;
+        color: #525557;
+        font-family: 'antenna-black';
+    }
+    .sec2Check {
+        margin-bottom: 52px;
+    }
+    .sec3-urologia{
+        background: url("../img/especialidades/urologia-franja.png") center center no-repeat;
+        background-size: cover;
+        width: 100%; 
+        min-height: 520px;
+        margin-top: -118px;
+    }
+    .sec1gine2 {
+        padding-top: 58px;
+        font-size: 15px;
+        color: #525557;
+        font-family: 'antenna-black';
+    }
+}
+@media (max-width: 989px) and (min-width: 768px) {}
+@media (max-width: 767px) and (min-width: 480px) {}
+@media (max-width: 479px) and (min-width: 0px) {
+    .sec1-gastro {
+        background: url(../img/especialidades/gastro-banner.jpg) top center no-repeat;
+        background-size: cover;
+        width: 100%;
+        min-height: 300px;
+    }
+}
+/* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+/*            Peditria                          */
+/* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+.sec1-pediatria {
+    background: url("../img/especialidades/pediatria-banner.jpg") top center no-repeat;
+    background-size: cover;
+    width: 100%; 
+    min-height: 600px;
+}
+.sec1gine{
+    font-size: 25px;
+    color: #9a9da1;
+    font-family: 'antenna-black'; 
+}
+.parrafo-tit1 {
+    margin-top: 97px;
+}
+.contacto-pediatria{
+    background: url("../img/especialidades/pediatra-banner2.jpg") top center no-repeat;
+    background-size: cover;
+    width: 100%; 
+    min-height: 350px;
+    margin-top: 3%;
+}
+.pd03 {
+    padding: 0px;
+    margin-bottom: -37px;
+}
+/****CELULAR**************************/
+@media (max-width: 1400px) and (min-width: 990px) {
+    .sec1-pediatria {
+        background: url("../img/especialidades/pediatria-banner.jpg") top center no-repeat;
+        background-size: cover;
+        width: 100%; 
+        min-height: 450px;
+    }
+}
+@media (max-width: 989px) and (min-width: 768px) {}
+@media (max-width: 767px) and (min-width: 480px) {}
+@media (max-width: 479px) and (min-width: 0px) {
+    .sec1-pediatria {
+        background: url(../img/especialidades/pediatria-banner.jpg) top center no-repeat;
+        background-size: cover;
+        width: 100%;
+        min-height: 400px;
+    }
+    .contacto-pediatria {
+        background: url(../img/especialidades/pediatra-banner2.jpg)left center no-repeat;
+        background-size: cover;
+        width: 100%;
+        min-height: 215px;
+        margin-top: 0%;
+    }
+}
+/* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+/*            Directorio Medico                 */
+/* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+.banner-directorio .btn-default {
+    color: white;
+    background-color: #65aadb;
+    border-color: #ccc;
+    width: 100%;
+    font-size: 20px;
+    font-family: 'antenna-regular';
+    margin: 1px 0px 13px 0px;
+}
+ .banner-directorio {
+    background: url("../img/directorio-medico/banner.jpg") top center no-repeat;
+    background-size: cover;
+    width: 100%; 
+    min-height: 700px;
+    margin-bottom: -19px;
+}
+.banner-directorio input:focus {
+    background-color: white;
+}
+.tituloPrincipalBusqueda {
+    -webkit-text-fill-color: #f4f2f2;
+    -webkit-text-stroke-color: #65aadb;
+    -webkit-text-stroke-width: 3.0px;
+    font-size: 54px;
+    text-align: center;
+}
+.especialidadDirectorio {
+    color: white;
+    font-size: 60px;
+    font-family: 'antenna-black';
+    padding-top: 30%;
+}
+.tituloDirectorio{
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'antenna-black';
+}
+.subtituloDirectorio {
+    color: #484040;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'antenna-regular';
+}
+.tituloDirectorio p{
+    padding-top: 1%;
+    text-align: center;
+}
+.claseborder {
+    border: 2px solid white;
+    text-align: center;
+}
+.claseborder1{
+    border: 2px solid #64a9de;
+    margin: 0px 28px 0px 28px;
+    text-align: initial;
+    padding-left: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.sec1-servMedico{
+    background-size: cover;
+    width: 100%; 
+    min-height: 800px;
+    padding-top: 10%;
+}
+.sec2-servMedico{
+    background-size: cover;
+    width: 100%; 
+    min-height:150px;
+}
+.fondo-buscar {
+    background: rgba(216, 219, 219, 0.9)!important;
+    background-size: cover;
+    width: 100%;
+    min-height: 260px;
+}
+.banner-directorio .form-control {
+    font-family: antenna-regular;
+    display: block;
+    text-transform: uppercase;
+    padding: 0px 12px;
+    font-size: 13px;
+    line-height: 1.42857143;
+    color: #65aadb;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    margin-top: 5%;
+} 
+
+.input.boton {  
+    font-family: 'gotham-bold';
+    width: 300px;
+    background: #4f4f4f;
+    color: white;
+    font-size: 18px;
+}
+@media (max-width: 1400px) and (min-width: 990px) {
+     .banner-directorio {
+        background: url("../img/directorio-medico/banner.jpg") top center no-repeat;
+        background-size: cover;
+        width: 100%; 
+        min-height: 650px;
+        margin-bottom: -19px;
+    }
+    .especialidadDirectorio {
+        color: white;
+        font-size: 60px;
+        font-family: 'antenna-black';
+        padding-top: 25%;
+    }
+}
+@media (max-width: 989px) and (min-width: 768px) {}
+@media (max-width: 800px) and (min-width: 480px) {
+    .especialidadDirectorio {
+        color: white;
+        font-size: 60px;
+        font-family: 'antenna-black';
+        padding-top: 42%;
+    }
+    .banner-directorio .form-control {
+        font-family: antenna-regular;
+        display: block;
+        padding: 0px 12px;
+        font-size: 11px;
+        line-height: 1.42857143;
+        color: #65aadb;
+        background-color: #fff;
+        background-image: none;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+        box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+        -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+        -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+        transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+        margin-top: 5%;
+    }
+}
+@media (max-width: 479px) and (min-width: 0px) {
+    .banner-directorio {
+        background: url(../img/directorio-medico/banner.jpg)top left no-repeat;
+        background-size: cover;
+        width: 100%;
+        min-height: 600px;
+        margin-bottom: -19px;
+    }
+    .especialidadDirectorio {
+        color: white;
+        font-size: 60px;
+        font-family: 'antenna-black';
+        padding-top: 65%;
+    }
+    .tituloDirectorio {
+        color: black;
+        font-size: 35px;
+        text-align: center;
+        font-family: 'antenna-black';
+    }
+    .tituloDirectorio {
+        color: black;
+        font-size: 30px;
+        text-align: center;
+        font-family: 'antenna-black';
+    }
+    .banner-directorio .form-control {
+        font-family: antenna-regular;
+        display: block;
+        padding: 0px 12px;
+        font-size: 10px;
+        line-height: 1.42857143;
+        color: #65aadb;
+        background-color: #fff;
+        background-image: none;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+        box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+        -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+        -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+        transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+        margin-top: 5%;
+    }
+}
+/* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+/*            Contacto                          */
+/* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+.contacto-titulo{
+    font-size: 60px;
+    font-family: 'antenna-cond' !important;
+    font-weight: 700;
+}
+.envia{
+    color: #8ac242;
+    font-weight: 700;
+}
+.sec1-contactos {
+    background: url(../img/banner.jpg) center left no-repeat;
+    background-size: cover;
+    display: inline-block;
+    width: 100%;
+    min-height: 500px;
+    margin-bottom: 10px;
+}
+.contactonuevo input:focus { 
+    background-color: #8ac242;
+}
+.contactonuevo textarea:focus { 
+    background-color: #8ac242;
+}
+.contactonuevo .form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 22px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    margin-top: 5%;
+}
+.contactonuevo .btn-success {
+    /* color: #fff; */
+    background-color: #fff;
+    border-color: #0c0d0c;
+    color: black;
+    border-radius: 9px;
+    margin-bottom: 60px;
+    margin-top: 12px;
+    padding: 10px 35px;
+}
+.contactonuevo .color-texto{
+    color: #ccc;
+}
+/* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+/*            CELULAR AJUSTES                   */
+/* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+@media (max-width: 1400px) and (min-width: 990px) {
+    /*instalaciones*/
+    .sec1-instalaciones{
+        background: url("../img/nosotros/instalaciones-banner.jpg") top center no-repeat;
+        background-size: cover;
+        width: 100%; 
+        min-height: 450px;
+    }
+}
+@media (max-width: 989px) and (min-width: 768px) {}
+@media (max-width: 767px) and (min-width: 480px) {}
+@media (max-width: 479px) and (min-width: 0px) {}
+/* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+/*            CELULAR HEADER                    */
+/* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+@media (max-width: 1400px) and (min-width: 990px) {
+    .line-footer {
+        background: #326078;
+        height: auto;
+        padding-top: 10px;
+        color: #09476d;
+    }
+    .sec2-line1 {
+        position: absolute;
+        top: 79px;
+        padding-left: 17%;
+    }
+    .especialidad {
+        color: white;
+        font-size: 60px;
+        font-family: 'antenna-black';
+        padding-top: 15%;
+    }
+    .especialidadEspe {
+        color: white;
+        font-size: 60px;
+        font-family: 'antenna-black';
+        padding-top: 25%;
+    }
+    .home_slider {
+        margin-bottom: -5px;
+    }
+    .home_slider1 {
+        margin-bottom: 18px;
+    }
+    .sec1-contactos {
+        background: url(../img/banner.jpg) center left no-repeat;
+        background-size: cover;
+        display: inline-block;
+        width: 100%;
+        min-height: 470px;
+        margin-bottom: -6px;
+    }
+}
+@media (max-width: 989px) and (min-width: 768px) {
+    .tituloCirujia{
+        font-family: 'antenna-black';
+        font-size: 45px;
+        color: #26aade;
+    }
+
+    .titulo {
+        font-family: 'antenna-black';
+        font-size: 30px;
+    }
+    .sec4-titulo {
+        font-family: 'antenna-cond';
+        font-size: 40px;
+        font-weight: 700;
+    }
+    .sec4-icono1 {
+        color: white;
+        font-family: 'antenna-regular';
+        padding-top: 5px;
+        font-size: 13px;
+    }
+    .sec4-linea1 {
+        color: white;
+        font-size: 9px;
+    }
+}
+@media (max-width: 780px) and (min-width: 480px) {
+    .tituloCirujia{
+        font-family: 'antenna-black';
+        font-size: 45px;
+        color: #26aade;
+    }
+    .line-footer {
+        background: #326078;
+        height: auto;
+        padding-top: 10px;
+        color: #09476d;
+    }
+}
+@media (max-width: 479px) and (min-width: 0px) {
+    .titulo {
+        font-family: 'antenna-black';
+        font-size: 25px;
+    }
+    .tituloCirujia {
+        font-family: 'antenna-black';
+        font-size: 45px;
+        color: #26aade;
+    }
+    .especialidad {
+        color: white;
+        text-align: center;
+        padding-top: 27%;
+        font-size: 35px;
+        font-family: 'antenna-black';
+        padding-top: 79%;
+    }
+    .top-cel{
+        padding-top: 60%;
+    }
+    .sec1-quienes-somos {
+        background: url(../img/nosotros/quienes-somos-banner.jpg) center left no-repeat;
+        background-size: cover;
+        display: inline-block;
+        width: 100%;
+        min-height: 300px;
+    }
+    .tituloCirujia {
+        font-family: 'antenna-black';
+        font-size: 25px;
+        color: #26aade;
+    }
+    header .nav li a {
+        color: black;
+        padding: 9px 12px 5px 12px;
+        display: block;
+        font-size: 16px;
+        text-transform: capitalize;
+        width: 100%;
+        text-align: left;
+        font-family: 'antenna-cond';
+    }
+    .navbar {
+        position: relative;
+        min-height: 95px;
+        margin-bottom: -9px;
+    }
+    header.large {
+        min-height: 116px;
+        background-color: rgba(255, 255, 255, 0.1)!important;
+        color: black;
+        width: 100%;
+    }
+    .sec1-certificaciones {
+        background: url(../img/nosotros/certificaciones-banner.jpg) center center no-repeat;
+        background-size: cover;
+        display: inline-block;
+        width: 100%;
+        min-height: 600px;
+    }
+}
+
+@media (max-width: 1400px) and (min-width: 990px) {
+    .sec3-img-gine{
+        background: url("../img/especialidades/franjagine.png") center center no-repeat;
+        background-size: cover;
+        width: 100%; 
+        min-height: 500px;
+        margin-top: -85px;
+    }
+
+    .sec1-gine {
+        background: url("../img/especialidades/gine-banner.jpg")no-repeat;
+        background-size: cover;
+        width: 100%; 
+        min-height: 450px;
+    }
+}
+@media (max-width: 989px) and (min-width: 768px) {}
+@media (max-width: 767px) and (min-width: 480px) {}
+@media (max-width: 479px) and (min-width: 0px) {}
+/* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+/*            SERVICIO MEDICO                   */
+/* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+.sec1-quirofano {
+    background: url("../img/servicios-medicos/quirofano-banner.jpg")no-repeat;
+    background-size: cover;
+    width: 100%; 
+    min-height: 600px;
+}
+.especialidadQuirofano {
+    color: white;
+    font-size: 60px;
+    font-family: 'antenna-black';
+    padding-top: 330px;
+}
+.sec3-quirofanoN{
+    background: url("../img/servicios-medicos/circulo.png") center center no-repeat;
+    background-size: cover;
+    width: 100%; 
+    min-height: 650px;
+    margin-top: -115px;
+}
+.contactoQuirofano{
+    background: url("../img/servicios-medicos/Quirofano-banner2.jpg") center center no-repeat;
+    background-size: cover;
+    width: 100%; 
+    min-height: 450px;
+}
+/* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+/*              Nutricion                       */
+/* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+.sec1-nutricionN {
+    background: url("../img/servicios-medicos/nutricion-banner.jpg")no-repeat;
+    background-size: cover;
+    width: 100%; 
+    min-height: 600px;
+}
+.sec3-nutricionN{
+    background: url("../img/servicios-medicos/nutri-franja.png") center center no-repeat;
+    background-size: cover;
+    width: 100%; 
+    min-height: 650px;
+    margin-top: -115px;
+}
+.contactoNutricionN{
+    background: url("../img/servicios-medicos/NutricionBanner2.jpg") center center no-repeat;
+    background-size: cover;
+    width: 100%; 
+    min-height: 450px;
+}
+.sec1quienesSNutricion {
+    padding-top: 157px;
+    font-size: 20px;
+    color: #525557;
+}
+.sec1gine2Nutricioon {
+    padding-top: 54px;
+    font-size: 15px;
+    color: #525557;
+    font-family: 'antenna-black';
+}
+@media (max-width: 1400px) and (min-width: 990px) {
+    .sec1-quirofano {
+        background: url("../img/servicios-medicos/quirofano-banner.jpg")no-repeat;
+        background-size: cover;
+        width: 100%; 
+        min-height: 450px;
+    }
+    .especialidadQuirofano {
+        color: white;
+        font-size: 60px;
+        font-family: 'antenna-black';
+        padding-top: 250px;
+    }
+    .contactoQuirofano{
+        background: url("../img/servicios-medicos/Quirofano-banner2.jpg") center center no-repeat;
+        background-size: cover;
+        width: 100%; 
+        min-height: 450px;
+    }
+    /* ################## Nutricion ##################*/
+    .sec1-nutricionN {
+        background: url("../img/servicios-medicos/nutricion-banner.jpg")no-repeat;
+        background-size: cover;
+        width: 100%; 
+        min-height: 450px;
+    }
+    .sec3-nutricionN{
+        background: url("../img/servicios-medicos/nutri-franja.png") center center no-repeat;
+        background-size: cover;
+        width: 100%; 
+        min-height: 520px;
+        margin-top: -115px;
+    }
+    .sec1quienesSNutricion {
+        padding-top: 100px;
+        font-size: 20px;
+        color: #525557;
+    }
+    .contactoNutricionN{
+        background: url("../img/servicios-medicos/NutricionBanner2.jpg") center center no-repeat;
+        background-size: cover;
+        width: 100%; 
+        min-height: 370px;
+    }
+}
+@media (max-width: 989px) and (min-width: 768px) {}
+@media (max-width: 767px) and (min-width: 480px) {}
+@media (max-width: 479px) and (min-width: 0px) {
+    .especialidadEspe {
+        color: white;
+        font-size: 35px;
+        font-family: 'antenna-black';
+        padding-top: 50%;
+    }
+    .sec1-admision {
+        background: url(../img/admision/banner.jpg) top center no-repeat;
+        background-size: cover;
+        width: 100%;
+        min-height: 350px;
+    }
+    .sec1-admision .admision-contacto {
+        color: white;
+        padding-top: 180px;
+        font-size: 20px;
+        font-family: 'antenna-regular';
+    }
+}
+select:-moz-focusring {
+  color: transparent;
+  text-shadow: 0 0 0 #000;
+}
+
+option {
+  font-weight:normal;
+}
+
+.output {
+    margin: 0 auto;
+    padding: 0em;
+}
+.output1 {
+    margin: 0 auto;
+    padding: 0em;
+}
+.colors {
+    padding: 0em;
+    color: #fff;
+    display: none;
+}
+.colors-new {
+    padding: 0em;
+    color: #fff;
+    display: none;
+}
+.aseguradora {
+    color: #000;
+    background: transparent;
+}
+.especialidadOtra {
+    color: #000;
+    background: transparent;
+}
+a {
+  color: #c04;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #903;
+  text-decoration: underline;
+}
+
+.magalylfJesus div {
+  display: none;
+  height: 50px;
+  width: 50px;
+}
+@media (max-width: 1200px) and (min-width: 990px) {}
+@media (max-width: 989px) and (min-width: 768px) {}
+@media (max-width: 767px) and (min-width: 480px) {}
+@media (max-width: 479px) and (min-width: 0px) {
+    .sec1-trauma {
+        background: url(../img/especialidades/trauma-banner.jpg) top center no-repeat;
+        background-size: cover;
+        width: 100%;
+        min-height: 350px;
+    }
+    .contacto-medicInterna {
+        background: url(../img/especialidades/medicInterna.jpg) top center no-repeat;
+        background-size: cover;
+        width: 100%;
+        min-height: 300px;
+        margin-top: 0%;
+    }
+    .sec1medicInterna-text {
+        padding-top: 100px;
+        font-size: 15px;
+        color: #525557;
+        font-family: 'antenna-black';
+    }
+    .sec1-medicInterna {
+        background: url(../img/especialidades/medicina-interna.jpg) top center no-repeat;
+        background-size: cover;
+        width: 100%;
+        min-height: 350px;
+    }
+    .contacto-gastro {
+        background: url(../img/especialidades/gastro-banner2.jpg) top left no-repeat;
+        background-size: cover;
+        width: 100%;
+        min-height: 300px;
+        margin-top: 0%;
+    }
+    .text1-contacto-trauma {
+        color: white;
+        padding-top: 35px;
+        font-size: 35px;
+        text-align: center;
+    }
+    .sec1gine2 {
+        padding-top: 0px;
+        font-size: 15px;
+        color: #525557;
+        font-family: 'antenna-black1';
+    }
+    .sec1quienesS {
+        padding-top: 150px;
+        font-size: 20px;
+        color: #525557;
+    }
+    .sec1-urgencias-banner {
+        background: url(../img/servicios-medicos/urgencias-banner.jpg) top left no-repeat;
+        background-size: cover;
+        width: 100%;
+        min-height: 300px;
+    }
+    .contacto-TerapiasUci {
+        background: url(../img/terapias-uci/banner2.jpg) center center no-repeat;
+        background-size: cover;
+        width: 100%;
+        min-height: 300px;
+    }
+    .sec3-TerapiasUci {
+        background: url(../img/terapias-uci/franja.png) center center no-repeat;
+        background-size: cover;
+        width: 100%;
+        min-height: 650px;
+        margin-top: -115px;
+        margin-bottom: -177px;
+    }
+    .textoTerapiasUci {
+        padding-top: 0px;
+        font-size: 17px;
+        color: #525557;
+    }
+    .sec1-gine {
+        background: url(../img/especialidades/gine-banner.jpg)top center no-repeat;
+        background-size: cover;
+        width: 100%;
+        min-height: 350px;
+    }
+    .sec1-nutricionN {
+        background: url(../img/servicios-medicos/nutricion-banner.jpg)no-repeat top left;
+        background-size: cover;
+        width: 100%;
+        min-height: 350px;
+    }
+    .sec1quienesSNutricion {
+        padding-top: 157px;
+        font-size: 16px;
+        color: #525557;
+    }
+    .movilParaSec3{
+        margin-top: -40px;
+    }
+    .sec3-nutricionN {
+        background: url(../img/servicios-medicos/nutri-franja.png) center center no-repeat;
+        background-size: cover;
+        width: 100%;
+        min-height: 650px;
+        margin-top: -115px;
+        margin-bottom: -190px;
+    }
+    .especialidad-contacto {
+        color: white;
+        padding-top: 180px;
+        font-size: 40px;
+        font-family: 'antenna-black';
+    }
+    .especialidad1 {
+        color: white;
+        padding-top: 0%;
+        font-size: 17px;
+        font-family: 'antenna-regular';
+    }
+    .home_slider1{
+        padding-bottom: 30px;
+    }
+    .contacto-titulo {
+        font-size: 40px;
+        font-family: 'antenna-cond' !important;
+        font-weight: 700;
+    }
+    .admision-contacto {
+        color: white;
+        padding-top: 50px;
+        font-size: 12px;
+        font-family: 'antenna-regular';
+    }
+    .text1-contacto {
+        color: white;
+        padding-top: 50px;
+        font-size: 30px;
+        text-align: center;
+    }
+    .sec1-quirofano {
+        background: url(../img/servicios-medicos/quirofano-banner.jpg)top left no-repeat;
+        background-size: cover;
+        width: 100%;
+        min-height: 350px;
+    }
+    .especialidadQuirofano {
+        color: white;
+        font-size: 35px;
+        font-family: 'antenna-black';
+        padding-top: 200px;
+    }
+    .sec3-img {
+        background: url(../img/especialidades/franja.png) center center no-repeat;
+        background-size: cover;
+        width: 100%;
+        min-height: 416px;
+        padding-top: 120px;
+        margin-top: -90px;
+    }
+    .contactoQuirofano {
+        background: url(../img/servicios-medicos/Quirofano-banner2.jpg) center center no-repeat;
+        background-size: cover;
+        width: 100%;
+        min-height: 330px;
+    }
+    .sec3-img-urgencias {
+        background: url(../img/nosotros/urgencias/franja.png) center center no-repeat;
+        background-size: cover;
+        width: 100%;
+        min-height: 650px;
+        margin-top: -115px;
+        margin-bottom: -180px;
+    }
+    .contacto-urgencias {
+        background: url(../img/nosotros/urgencias/banner2.jpg) center top no-repeat;
+        background-size: cover;
+        width: 100%;
+        min-height: 300px;
+        margin-top: 1%;
+    }
+    .sec1-cirugia-general {
+        background: url(../img/especialidades/cirugia-general-banner.jpg) top left no-repeat;
+        background-size: cover;
+        width: 100%;
+        min-height: 350px;
+    }
+    .parrafo-center {
+        color: #555759;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .contacto-new {
+        background: url(../img/especialidades/banner2.jpg) center right no-repeat;
+        background-size: cover;
+        width: 100%;
+        min-height: 300px;
+        margin-top: 5%;
+    }
+    .sec1gine1 {
+        padding-top: 150px;
+        font-size: 18px;
+        color: #525557;
+        font-family: 'antenna-black1';
+    }
+    .sec1trauma1 {
+        padding-top: 40px;
+        font-size: 20px;
+        color: #d67f2d;
+        font-family: 'antenna-black';
+    }
+    .contacto-trauma {
+        background: url(../img/especialidades/banner-trauma2.jpg) top right no-repeat;
+        background-size: cover;
+        width: 100%;
+        min-height: 300px;
+        margin-top: 0%;
+    }
+    .sec1-urologia {
+        background: url(../img/especialidades/urologia-banner.jpg) top right no-repeat;
+        background-size: cover;
+        width: 100%;
+        min-height: 300px;
+    }
+    .contacto-urologia {
+        background: url(../img/especialidades/urolog-banner2.jpg) top left no-repeat;
+        background-size: cover;
+        width: 100%;
+        min-height: 250px;
+        margin-top: 0%;
+    }
+    .contacto-cardiologia {
+        background: url(../img/especialidades/cardiologia-banner-2.jpg) right top no-repeat;
+        background-size: cover;
+        width: 100%;
+        min-height: 250px;
+        margin-top: -115px;
+    }
+    .text1-contacto-quienes {
+        color: white;
+        padding-top: 100px;
+        font-size: 30px;
+        text-align: center;
+    }
+    .contacto-quienes {
+        background: url(../img/nosotros/quinesSomos/banner2.jpg) top center no-repeat;
+        background-size: cover;
+        width: 100%;
+        min-height: 300px;
+        margin-top: 0px;
+    }
+    .text1-contacto-quienes {
+        color: white;
+        padding-top: 40px;
+        font-size: 30px;
+        text-align: center;
+    }
+    .contacto-instalaciones {
+        background: url(../img/nosotros/bannerInstalaciones.jpg) center center no-repeat;
+        background-size: cover;
+        width: 100%;
+        min-height: 300px;
+    }
+    .sec4-titulo {
+        font-family: 'antenna-cond';
+        font-size: 28px;
+        font-weight: 700;
+    }
+    .img-doc {
+        margin-top: 15px;
+    }
+    .sec2-doc {
+        padding-top: 40%;
+        padding-bottom: 30%;
+    }
+    .sec4-titulo {
+        font-family: 'antenna-cond';
+        font-size: 40px;
+        font-weight: 700;
+    }
+    .sec1-contactos {
+        background: url(../img/banner.jpg) center top no-repeat;
+        background-size: cover;
+        display: inline-block;
+        width: 100%;
+        min-height: 300px;
+        margin-bottom: -6px;
+    }
+}
