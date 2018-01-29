@@ -5,7 +5,7 @@
     <meta name="description" content="Hospitaria buscamos cumplir con los más altos estándares de calidad en atención al cliente">
     <meta name="keywords" content="En Hospitaria queremos mejorar tu calidad de vida cuidando tu salud">
     <meta name="author" content="Todo esto dentro de un marco ético que busque el bien común y
-maximice el desarrollo social de la zona.">
+    maximice el desarrollo social de la zona.">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--link rel="stylesheet" type="text/css" href="assets/fonts/MyriadPro-Regular.otf"-->
@@ -49,6 +49,20 @@ maximice el desarrollo social de la zona.">
 
     <!-- Analytics code -->
     <?php include_once('src/partial/seo/analytics.php'); ?>
+
+    <!--Start Redes Sociales-->
+    <script type="application/ld+json">
+    {
+        "@context" : "http://schema.org",
+        "@type" : "Organization",
+        "name" : "Hospitaria",
+        "url" : "https://www.hospitaria.com/",
+        "sameAs" : [
+        "https://plus.google.com/+Hospitaria"
+        ]
+    }
+    </script>
+     <!--End Redes Sociales-->
 </head>
 
 <body>
