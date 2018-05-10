@@ -1,7 +1,8 @@
-<?php
+﻿<?php
 //Librerías para el envío de mail
 include_once('class.phpmailer.php');
-include_once('class.smtp.php'); 
+include_once('class.smtp.php');
+ 
 $nombre = $_POST['nombreCompleto'];
 $FechaNacimiento = $_POST['FechaNacimiento'];
 $sexo = $_POST['sexo'];
@@ -23,10 +24,22 @@ $especialidadOtro = $_POST['especialidadOtro'];
 
 $archivo1 = $_FILES['archivo1'];
 $archivo2 = $_FILES['archivo2'];
-$archivo2 = $_FILES['archivo3'];
+$archivo3 = $_FILES['archivo3'];
+
+$para = "hospitaria@futurite.com";
+$para1 =  "magaly.lopez@metodika.mx";
+$para2 =  "leadsclientes@futurite.com";
+
+
 
 //Recibir todos los parámetros del formulario
-$para = "magaly.lopez@metodika.mx";
+/*$para1 = "magaly.lopez@metodika.mx";
+$para =  "admision@hospitaria.com";
+$para2 = "admision2@hospitaria.com";
+$para3 = "admision1@hospitaria.com";
+$para4 = "mariela.velazquez@hospitaria.com";
+$para6 = "fernando.garza@hospitaria.com";
+$para7 = "leadsclientes@futurite.com";*/
 
 $asunto = "Pre Registro";//$_POST['asunto'];
 $mensaje = "<b>Hospitaria Contacto:</b> .<br>";
@@ -49,18 +62,38 @@ if (empty($tipoAseguradora)) {
     $mensaje .= "Aseguradora: " . $_POST['tipoAseguradora'] . ".<br>";
     $mensaje .= "Número de Poliza: " . $_POST['noPoliza'] . ".<br>";
 }
+
+/*$mensaje .= "Forma de Pago: " . $_POST['formaPago'] . ".<br>";
+$mensaje .= "Número de Poliza: " . $_POST['noPoliza'] . ".<br>";
+$mensaje .= "Aseguradora: " . $_POST['tipoAseguradora'] . ".<br>";*/
 if (empty($especialidadOtro)) {  
     $mensaje .= "Tipo Procedimiento: " . $_POST['tipoProcedimiento'] . ".<br>";
     }  else { 
     $mensaje .= "Tipo Procedimiento: " . $_POST['especialidadOtro'] . ".<br>";
 }
+/*
+$mensaje .= "Procedimiento: " . $_POST['tipoProcedimiento'] . ".<br>";
+$mensaje .= "Especialidad: " . $_POST['especialidadOtro'] . ".<br>";*/
 
 $mail = new PHPMailer();
-//Agregar destinatario
 
-$mail->AddBCC($para);
+//Agregar destinatario
+$mail->AddAddress($para);
+$mail->AddBCC($para2);
+
+/*$mail->AddCC($para2);
+$mail->AddCC($para3);
+$mail->AddCC($para4);
+$mail->AddCC($para5);
+$mail->AddCC($para6);
+$mail->AddCC($para7);*/
+
 $mail->Subject = $asunto;
 $mail->Body = $mensaje;
+
+/*$uploads_dir = '/assets/img/uploads';
+move_uploaded_file($tmp_name, "$uploads_dir/$name");
+move_uploaded_file($_FILES['file']['name'], $move);*/
 
 move_uploaded_file($_FILES['archivo1']['tmp_name'], "assets/img/uploads/".$_FILES['archivo1']['name']);
 move_uploaded_file($_FILES['archivo2']['tmp_name'], "assets/img/uploads/".$_FILES['archivo2']['name']);
@@ -70,26 +103,33 @@ $file1 = "assets/img/uploads/".$_FILES['archivo1']['name'];
 $file2 = "assets/img/uploads/".$_FILES['archivo2']['name'];
 $file3 = "assets/img/uploads/".$_FILES['archivo3']['name'];
 
+/*$file1 = $_FILES['archivo1']['name'];
+$file2 = $_FILES['archivo2']['name'];
+$file3 = $_FILES['archivo3']['name'];*/
+
 $mail->AddAttachment( $file1, 'ife.png' );
 $mail->AddAttachment( $file2, 'cotizacion.png' );
 $mail->AddAttachment( $file3, 'caratula-poliza.png' );
+
+
+//$file = "assets/img/admision/banner.jpg";
+//$mail->AddAttachment( $file, 'ife.png' );
+
 $mail->MsgHTML($mensaje);
 
 
- 
 //Avisar si fue enviado o no y dirigir al index
-
 if($mail->Send())
 {
     echo'<script type="text/javascript">
             alert("Enviado Correctamente");
-            window.location="http://hospitaria.com/admision.php"
+            window.location="gracias.php"
          </script>';
 }
 else{
     echo'<script type="text/javascript">
             alert("NO ENVIADO, intentar de nuevo");
-            window.location="http://hospitaria.com/admision.php"
+            window.location="admision.php"
          </script>';
 }
 ?>

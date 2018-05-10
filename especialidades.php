@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es" ng-app="MetodikaTI">
 <head>
     <meta charset="utf-8">
@@ -26,10 +26,8 @@ maximice el desarrollo social de la zona.">
     <?php include_once('src/partial/seo/fb-pixel.php'); ?>
 
     <!-- Title -->
-    <title>
-       HOSPITARIA -Especialidades
-    </title>
-
+    <title>HOSPITARIA -Especialidades</title>
+    <link rel="shortcut icon" href="favicon.ico">
     <!-- Preloader -->
     <link href="assets/css/preloader.css" rel="stylesheet" />
     <script src="assets/js/preloader.js"></script>
@@ -38,7 +36,7 @@ maximice el desarrollo social de la zona.">
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
 
     <!-- CSS -->
-    <link href="assets/css/main.css" rel="stylesheet" />
+    <link href="assets/css/main.min.css" rel="stylesheet" />
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -76,29 +74,29 @@ maximice el desarrollo social de la zona.">
         <div class="row">
             <a href="especialidades/cirugia-general.php">
                 <div class="col-sm-4 cir_general">
-                    <div class="col-sm-10">
-                        <p class="subtitle">Cirugía General</p>
+                    <div class="col-sm-9 col-md-10 col-xs-9">
+                        <p class="subtitleNosotros">Cirugía General</p>
                     </div>
-                    <div class="col-sm-2 icono-flecha">
+                    <div class="col-sm-2 icono-flecha-nosotros">
                         <img src="assets/img/home/flecha-ir-btn.png" alt="Flecha">
                     </div>
                 </div>
             </a>
             <a href="especialidades/ginecologia.php">
                 <div class="col-sm-4 gine-obste">
-                    <div class="col-sm-10">
-                        <p class="subtitle">Ginecología y Obstetricia</p>
+                    <div class="col-sm-9 col-md-10 col-xs-9">
+                        <p class="subtitleNosotros">Ginecología y Obstetricia</p>
                     </div>
-                    <div class="col-sm-2 icono-flecha">
+                    <div class="col-sm-2 icono-flecha-nosotros">
                         <img src="assets/img/home/flecha-ir-btn.png" alt="flecha boton">
                     </div>
                 </div>
             </a>
             <a href="especialidades/cirugia-plastica.php">
                 <div class="col-sm-4 cirugi-plastic">
-                    <div class="col-sm-10">
-                        <p class="subtitle">Cirugía Plástica</p></div>
-                    <div class="col-sm-2 icono-flecha">
+                    <div class="col-sm-9 col-md-10 col-xs-9">
+                        <p class="subtitleNosotros">Cirugía Plástica</p></div>
+                    <div class="col-sm-2 icono-flecha-nosotros">
                         <img src="assets/img/home/flecha-ir-btn.png" alt="bonton">
                     </div>
                 </div>
@@ -106,10 +104,10 @@ maximice el desarrollo social de la zona.">
 
             <a href="especialidades/gastroenterologia.php">
                 <div class="col-sm-4 gastro-ente">
-                    <div class="col-sm-10">
-                        <p class="subtitle">Gastroenterología</p>
+                    <div class="col-sm-9 col-md-10 col-xs-9">
+                        <p class="subtitleNosotros">Gastroenterología</p>
                     </div>
-                    <div class="col-sm-2 icono-flecha">
+                    <div class="col-sm-2 icono-flecha-nosotros">
                         <img src="assets/img/home/flecha-ir-btn.png" alt="btn">
                     </div>
                 </div>
@@ -117,10 +115,10 @@ maximice el desarrollo social de la zona.">
 
             <a href="especialidades/medicina-interna.php">
                 <div class="col-sm-4 med-icina">
-                    <div class="col-sm-10">
-                        <p class="subtitle">Medicina Interna</p>
+                    <div class="col-sm-9 col-md-10 col-xs-9">
+                        <p class="subtitleNosotros">Medicina Interna</p>
                     </div>
-                    <div class="col-sm-2 icono-flecha">
+                    <div class="col-sm-2 icono-flecha-nosotros">
                         <img src="assets/img/home/flecha-ir-btn.png" alt="fle">
                     </div>
                 </div>
@@ -128,60 +126,60 @@ maximice el desarrollo social de la zona.">
 
             <a href="especialidades/pediatria.php">
                 <div class="col-sm-4 pedia-tria">
-                    <div class="col-sm-10">
-                        <p class="subtitle">Pediatría</p>   
+                    <div class="col-sm-9 col-md-10 col-xs-9">
+                        <p class="subtitleNosotros">Pediatría</p>   
                     </div>
-                    <div class="col-sm-2 icono-flecha">
+                    <div class="col-sm-2 icono-flecha-nosotros">
                         <img src="assets/img/home/flecha-ir-btn.png" alt="flecha-boton">
                     </div>
                 </div>
             </a>
             <a href="especialidades/traumatologia.php">
                 <div class="col-sm-4 trauma-ortoped">
-                    <div class="col-sm-10">
-                        <p class="subtitle">Traumatología y Ortopedia</p>   
+                    <div class="col-sm-9 col-md-10 col-xs-9">
+                        <p class="subtitleNosotros">Traumatología y Ortopedia</p>   
                     </div>
-                    <div class="col-sm-2 icono-flecha">
+                    <div class="col-sm-2 icono-flecha-nosotros">
                         <img src="assets/img/home/flecha-ir-btn.png" alt="bon">
                     </div>
                 </div>
             </a>
             <a href="especialidades/urologia.php">
                 <div class="col-sm-4 uro-logia">
-                    <div class="col-sm-10">
-                        <p class="subtitle">Urología</p>   
+                    <div class="col-sm-9 col-md-10 col-xs-9">
+                        <p class="subtitleNosotros">Urología</p>   
                     </div>
-                    <div class="col-sm-2 icono-flecha">
+                    <div class="col-sm-2 icono-flecha-nosotros">
                         <img src="assets/img/home/flecha-ir-btn.png" alt="flecha.btn">
                     </div>
                 </div>
             </a>
             <a href="especialidades/cardiologia.php">
                 <div class="col-sm-4 cardiol-ogia">
-                    <div class="col-sm-10">
-                        <p class="subtitle">Cardiología</p>   
+                    <div class="col-sm-9 col-md-10 col-xs-9">
+                        <p class="subtitleNosotros">Cardiología</p>   
                     </div>
-                    <div class="col-sm-2 icono-flecha">
+                    <div class="col-sm-2 icono-flecha-nosotros">
                         <img src="assets/img/home/flecha-ir-btn.png" alt="btn-flecha">
                     </div>
                 </div>
             </a>
             <a href="especialidades/oftalmologia.php">
                 <div class="col-sm-4 oftan-mologia">
-                    <div class="col-sm-10">
-                        <p class="subtitle">Oftalmología</p>   
+                    <div class="col-sm-9 col-md-10 col-xs-9">
+                        <p class="subtitleNosotros">Oftalmología</p>   
                     </div>
-                    <div class="col-sm-2 icono-flecha">
+                    <div class="col-sm-2 icono-flecha-nosotros">
                         <img src="assets/img/home/flecha-ir-btn.png" alt="fle">
                     </div>
                 </div>
             </a>
             <a href="#">
                 <div class="col-sm-4 otra-espe">
-                    <div class="col-sm-10">
-                        <p class="subtitle">Otras Especialidades</p>   
+                    <div class="col-sm-9 col-md-10 col-xs-9">
+                        <p class="subtitleNosotros">Otras Especialidades</p>   
                     </div>
-                    <div class="col-sm-2 icono-flecha">
+                    <div class="col-sm-2 icono-flecha-nosotros">
                         <img src="assets/img/home/flecha-ir-btn.png" alt="ir">
                     </div>
                 </div>

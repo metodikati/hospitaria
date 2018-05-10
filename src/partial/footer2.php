@@ -1,4 +1,4 @@
-<footer class="sec-footer">
+﻿<footer class="sec-footer">
 	<div class="container-fluid">
 		<div class="col-sm-12">
 			<div class="col-sm-3 col-xs-12 col-sm-offset-1">
@@ -54,7 +54,7 @@
 	<div class="line-footer">
 		<div class="container">
 			<div class="col-sm-2">
-				<a href=""> Politica de Privacidad</a>
+				<a href="../assets/pdf/aviso-de-privacidad.pdf" target="_blank"> Politica de Privacidad</a>
 			</div>
 			<div class="col-sm-2">
 				©2017 Hospitaria

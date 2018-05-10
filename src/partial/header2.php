@@ -14,7 +14,7 @@
     <!-- Brand and toggle get grouped for better mobile display -->
       <div class="row bg-blue top-header">
         <div class="col-md-12 text-right">
-          <span class="menu_menu">¿Una Emergencia? ¡Llámanos! <img src="../assets/img/home/urgencias-reloj-rojo-icon.png" alt="reloj">  <a href="tel:+8140002200"><b>(81) 4000 2200</b></a></span> <div class="col-sm-3 col-xs-10"><br><br>
+          <span class="menu_menu">¿Una Emergencia? ¡Llámanos!   <img src="../assets/img/home/urgencias-reloj-rojo-icon.png"  alt="reloj">  <a href="tel:+8140002200"><b>(81) 4000 2200</b></a></span> <div class="col-sm-3 col-xs-10"><br><br>
         </div>
         </div>
       </div>
@@ -64,6 +64,5 @@
   } else {
     $("header").removeClass("small").addClass("large");
   }
-  
 });
 </script>

@@ -15,7 +15,7 @@
 							<a href="https://www.facebook.com/Hospitaria?fref=ts" target="_blank"> <img src="assets/img/facebook.png" alt="facebook"></a> 
 						</div>
 						<div class="col-sm-2 col-xs-2">
-							<a href=""> <img src="assets/img/insta.png" alt="Instagram" target="_blank"></a>
+							<a href="https://www.instagram.com/hospitaria.hospital/"  target="_blank"> <img src="assets/img/insta.png" alt="Instagram"></a>
 						</div>
 						<div class="col-sm-2 col-xs-2">
 							<a href="https://twitter.com/Hospitaria" target="_blank"> <img src="assets/img/twitter.png" alt="Twitter"></a>
@@ -59,7 +59,7 @@
 	<div class="line-footer">
 		<div class="container">
 			<div class="col-sm-2">
-				<a href=""> Politica de Privacidad</a>
+				<a href="assets/pdf/aviso-de-privacidad.pdf" target="_blank"> Politica de Privacidad</a>
 			</div>
 			<div class="col-sm-2">
 				©2017 Hospitaria

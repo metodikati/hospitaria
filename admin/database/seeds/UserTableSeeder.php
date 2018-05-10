@@ -25,12 +25,6 @@ class UserTableSeeder extends Seeder
             'email' => 'u-erre@metodika.com.mx',
             'password' => bcrypt('Huo0lpaw@'),
             'user_profile_id' => 2            
-          ],
-          [
-            'name' => 'Magaly',
-            'email' => 'magaly.lopez@metodika.mx',
-            'password' => bcrypt('Huo0lpaw@'),
-            'user_profile_id' => 1            
           ]
         ];
 

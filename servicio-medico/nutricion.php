@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es" ng-app="MetodikaTI"> 
 <head> 
     <meta charset="utf-8">
@@ -38,7 +38,7 @@ maximice el desarrollo social de la zona.">
     <link href="../assets/css/bootstrap.min.css" rel="stylesheet" />
 
     <!-- CSS -->
-    <link href="../assets/css/main.css" rel="stylesheet" />
+    <link href="../assets/css/main.min.css" rel="stylesheet" />
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -82,11 +82,11 @@ maximice el desarrollo social de la zona.">
 		<div class="row">
 			<div class="col-sm-12 pd0">
                 <div class="col-sm-2 col-xs-4 pd0">
-                    <img src="../assets/img/home/cuadro-chico-gris-gpc.jpg" class="img-responsive">
+                    <img src="../assets/img/home/cuadro-chico-gris-gpc.jpg" class="img-responsive" alt="Cuadro gris">
                 </div>
                 <div class="sec2-chec">
                     <div class="col-sm-7 pd0">
-                    	<span class="sec1-lineaCirujia">Especialidades / Hospitalización y Quirófano<hr></span>
+                    	<h1><span class="sec1-lineaCirujia">Especialidades / Hospitalización y Quirófano<hr></span></h1>
                         <span class="titulo">Una alimentación balanceada es clave en el <span class="tituloCirujia"> desarrollo de una buena salud</span></span>
                         <div class="instalacionesEspacio">
                         	<span class="parrafo-check">
@@ -135,7 +135,7 @@ maximice el desarrollo social de la zona.">
             Deja tu salud en las <b>mejores manos</b>
             <div class="col-sm-4 col-sm-offset-4">
                 <a href="../contacto.php">
-                    <img src="../assets/img/especialidades/boton.png" class="img-responsive">
+                    <img src="../assets/img/especialidades/boton.png" class="img-responsive" alt="especialidades">
                 </a>
             </div>
 

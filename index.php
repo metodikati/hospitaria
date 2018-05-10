@@ -1,11 +1,11 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es" ng-app="MetodikaTI">
 <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8"> 
     <meta name="description" content="Hospitaria buscamos cumplir con los más altos estándares de calidad en atención al cliente">
     <meta name="keywords" content="En Hospitaria queremos mejorar tu calidad de vida cuidando tu salud">
     <meta name="author" content="Todo esto dentro de un marco ético que busque el bien común y
-    maximice el desarrollo social de la zona.">
+maximice el desarrollo social de la zona.">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--link rel="stylesheet" type="text/css" href="assets/fonts/MyriadPro-Regular.otf"-->
@@ -18,6 +18,7 @@
 
     <!-- Structured data -->
     <?php include_once('src/partial/seo/structured-data.php'); ?>
+    
 
     <!-- Googlebot -->
     <?php include_once('src/partial/seo/googlebot.php'); ?>
@@ -26,9 +27,8 @@
     <?php include_once('src/partial/seo/fb-pixel.php'); ?>
 
     <!-- Title -->
-    <title>
-       HOSPITARIA 
-    </title>
+    <title>HOSPITARIA </title>
+    <link rel="shortcut icon" href="favicon.ico">
 
     <!-- Preloader -->
     <link href="assets/css/preloader.css" rel="stylesheet" />
@@ -38,7 +38,7 @@
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
 
     <!-- CSS -->
-    <link href="assets/css/main.css" rel="stylesheet" />
+    <link href="assets/css/main.min.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="assets/bxslider/jquery.bxslider.min.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -49,7 +49,6 @@
 
     <!-- Analytics code -->
     <?php include_once('src/partial/seo/analytics.php'); ?>
-
     <!--Start Redes Sociales-->
     <script type="application/ld+json">
     {
@@ -63,6 +62,7 @@
     }
     </script>
      <!--End Redes Sociales-->
+
 </head>
 
 <body>
@@ -176,7 +176,7 @@
                     </div>
                 </div>
             </a>
-            <a href="#">
+            <a href="servicio-medico/maternidad.php">
                 <div class="col-md-4 col-sm-6 sec1-color">
                     <div class="col-sm-10">
                         <p class="subtitle">Maternidad</p>
@@ -195,7 +195,7 @@
                     </div>
                 </div>
             </a>
-            <a href="#">
+            <a href="servicio-medico/terapias-uci.php">
                 <div class="col-md-4 col-sm-6 sec1-colo2">
                     <div class="col-sm-10">
                         <p class="subtitle">Terapia UCI</p>
@@ -205,7 +205,7 @@
                     </div>
                 </div>
             </a>
-            <a href="#">
+             <a href="servicio-medico/imagenologia.php">
                 <div class="col-md-4 col-sm-6 sec1-color3">
                     <div class="col-sm-10">
                         <p class="subtitle">Imagenología</p>
@@ -216,7 +216,7 @@
                 </div>
             </a>
 
-            <a href="#">
+            <a href="servicio-medico/laboratorio.php">
                 <div class="col-md-4 col-sm-6 sec1-colo4">
                     <div class="col-sm-10">
                         <p class="subtitle">Laboratorio</p>   
@@ -236,10 +236,10 @@
                 <div class="col-sm-2 pd0">
                     <img src="assets/img/home/cuadro-chico-magenta-gpc.jpg" class="img-responsive" alt="Cuadro Chico">
                 </div>
-                <div class="sec2-niño">
-                    <div class="col-sm-3">
+                <div class="col-sm-4">
+                    <div class="sec2-niño">
                         <span class="titulo">Personal disponible <br> 24/7</span>
-                        <p>
+                        <p  class="parrafo-ni-ma-be">
                             En Hospitaria Urgencias Médicas  contamos con todo el personal nesesario para  brindarte la información que necesitas en  el tiempo que requiere  una urgencia, dentro de urgencias contamos con quirófanos disponibles 24/7 exclusivos para cualquier urgencia.
                         </p>
                         <span class="contenido-servicio">
@@ -249,7 +249,7 @@
                         </span>
                     </div>
                 </div>
-                <div class="col-sm-7 pd0">
+                <div class="col-sm-6 pd0">
                     <div class="imgNino">
                         <img src="assets/img/home/urgencias-nino-img.jpg" class="img-responsive" alt="Urgencias">
                     </div>
@@ -262,10 +262,10 @@
     <div class="sec3">
         <div class="container-fluid">
             <div class="col-sm-12 pd0">
-                <div class="col-sm-6">
+                <div class="col-sm-6 pd0">
                     <img src="assets/img/home/maternidad-bebe-img.jpg" class="img-responsive" alt="Maternidad">
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-4">
                     <div class="bebePad">
                         <span class="titulo">Lo mejor para recibir a tu bebé</span>
                         <p>Ven con nosotros y obtén el paquete de maternidad más completo para recibir a tu bebé
@@ -278,7 +278,7 @@
                         </p>   
                     </div>
                 </div>
-                <div class="col-sm-2  col-sm-offset-1 col-xs-4  pd0">
+                <div class="col-sm-2 col-xs-4  pd0">
                     <img src="assets/img/home/cuadro-chico-cyan-gpc.jpg" class="img-responsive" alt="Cuadro Chico">
                 </div>
             </div>
@@ -287,11 +287,67 @@
 
 <!---->
 <!-------------------------------sec4---------------------------------->
- <div class="sec4"><div class="container-fluid">
+<div class="sec4-1">
+    <div class="container-fluid">
+        <div class="col-md-7 col-md-offset-3 sec4-top">
+            <span class="sec4-linea">Institutos Médicos de Alta Especialización <hr></span>
+            <h1><span class="sec4-titulo">
+                Los mejores especialistas están en Hospitaria</span>
+            </h1> 
+            <p>
+                Los institutos médicos de Hospitaria cuentan con una gran variedad de especialistas que se encuentran en constante capacitación con la finalidad de mantenerse al tanto de los últimos avances en la medicina. 
+             </p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="col-sm-12 linea1Iconos">
+            <div class="col-sm-2 icono1">
+                <span class="sec4-icono1"><br> Instituto de Urologia</span>
+                <span class="sec4-linea1">uropediatramexico.com<hr></span>
+            </div>
+            <div class="col-sm-2">
+                <img src="assets/img/home/icono2.jpg" class="img-responsive
+                        respon-movil" alt="icono2"> 
+            </div>
+            <div class="col-sm-2">
+                <img src="assets/img/home/icono3.jpg" class="img-responsive" alt="icono3">
+            </div>
+            <div class="col-sm-2">
+                <img src="assets/img/home/icono4.jpg" class="img-responsive" alt="icono4">
+            </div>
+            <div class="col-sm-2">
+                <img src="assets/img/home/icono5.jpg" class="img-responsive" alt="icono5">
+            </div>
+            <div class="col-sm-2">
+                <img src="assets/img/home/icono6.jpg" class="img-responsive" alt="icono6">
+            </div>
+        </div>
+        <div class="col-sm-12 col-sm-offset-1 linea1Iconos2">
+            <div class="col-sm-2">
+                 <img src="assets/img/home/icono11.jpg" class="img-responsive" alt="icono6">
+            </div>
+            <div class="col-sm-2">
+                <img src="assets/img/home/icono7.jpg" class="img-responsive" alt="icono7">
+            </div>
+            <div class="col-sm-2">
+                <img src="assets/img/home/icono8.jpg" class="img-responsive" alt="icono8">
+            </div>
+            <div class="col-sm-2">
+                <img src="assets/img/home/icono9.jpg" class="img-responsive" alt="icono9">
+            </div>
+            <div class="col-sm-2">
+                <img src="assets/img/home/icono10.jpg" class="img-responsive" alt="icono10">
+            </div>
+        </div>
+    </div>
+    <br><br>
+</div>
+
+ <!--<div class="sec4"><div class="container-fluid">
     <div class="row">
        
             <div class="col-sm-12">
-                <div class="col-md-6 col-md-offset-3 sec4-top">
+                <div class="col-md-7 col-md-offset-3 sec4-top">
                     <span class="sec4-linea">Institutos Médicos de Alta Especialización <hr></span>
                     <h1><span class="sec4-titulo">
                         Los mejores especialistas están en Hospitaria
@@ -311,29 +367,64 @@
                     </div>
                     <div class="col-sm-2 col-xs-6">
                         <img src="assets/img/home/icono2.jpg" class="img-responsive
-                        respon-movil" alt="icono2"> </div>
-                    <div class="col-sm-2 col-xs-6"><img src="assets/img/home/icono3.jpg" class="img-responsive" alt="icono3"> </div>
-                    <div class="col-sm-2 col-xs-6"><img src="assets/img/home/icono4.jpg" class="img-responsive" alt="icono4"> </div>
-                    <div class="col-sm-2 col-xs-6"><img src="assets/img/home/icono5.jpg" class="img-responsive" alt="icono5"> </div>
+                        respon-movil" alt="icono2"> 
+                    </div>
+                    <div class="col-sm-2 col-xs-6">
+                        <img src="assets/img/home/icono3.jpg" class="img-responsive" alt="icono3"> </div>
+                    <div class="col-sm-2 col-xs-6">
+                        <img src="assets/img/home/icono4.jpg" class="img-responsive" alt="icono4"> </div>
+                    <div class="col-sm-2 col-xs-6">
+                        <img src="assets/img/home/icono5.jpg" class="img-responsive" alt="icono5"> </div>
 
                 </div>
                 <div class="col-sm-12"><br>
-                    <div class="col-sm-2 col-xs-6 col-sm-offset-1"><img src="assets/img/home/icono6.jpg" class="img-responsive" alt="icono6"></div>
-                    <div class="col-sm-2 col-xs-6"><img src="assets/img/home/icono7.jpg" class="img-responsive" alt="icono7"> </div>
-                    <div class="col-sm-2 col-xs-6"><img src="assets/img/home/icono8.jpg" class="img-responsive" alt="icono8"> </div>
-                    <div class="col-sm-2 col-xs-6"><img src="assets/img/home/icono9.jpg" class="img-responsive" alt="icono9"> </div>
-                    <div class="col-sm-2 col-xs-6"><img src="assets/img/home/icono10.jpg" class="img-responsive" alt="icono10"> </div>
+                    <div class="col-sm-2 col-xs-6 col-sm-offset-1">
+                        <img src="assets/img/home/icono6.jpg" class="img-responsive" alt="icono6"></div>
+                    <div class="col-sm-2 col-xs-6">
+                        <img src="assets/img/home/icono7.jpg" class="img-responsive" alt="icono7"> </div>
+                    <div class="col-sm-2 col-xs-6">
+                        <img src="assets/img/home/icono8.jpg" class="img-responsive" alt="icono8"> </div>
+                    <div class="col-sm-2 col-xs-6">
+                        <img src="assets/img/home/icono9.jpg" class="img-responsive" alt="icono9"> </div>
+                    <div class="col-sm-2 col-xs-6">
+                        <img src="assets/img/home/icono10.jpg" class="img-responsive" alt="icono10"> </div>
                     
                 </div>
 
             </div>
         </div>
     </div>
-</div>    
+</div>    -->
 
 <!---->
 <!-------------------------------sec5---------------------------------->
 <div class="sec5">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12 pd0">
+                <div class="col-sm-2 col-xs-4 pd0">
+                    <img src="assets/img/home/cuadro-chico-gris-gpc.jpg" class="img-responsive" alt="Color Gris">
+                </div>
+                <div class="col-sm-3 bebePad">
+                    <span class="titulo">Los mejores médicos cerca de ti</span>
+                    <p>
+                        Contamos con un directorio médico con más de 500 doctores en 60 especialidades diferentes.
+                    </p>
+                    <span class="contenido-servicio">
+                        <a href="contacto.php">
+                            <button class="button button5">DESEAS SABER MÁS</button>
+                        </a>
+                    </span>
+                </div>
+                <div class="col-sm-7">
+                    <img src="assets/img/home/sec51.jpg" class="img-responsive imgMejoresMedicos" alt="doctor">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!---->
+<!--<div class="sec5">
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm-12 pd0">
@@ -362,14 +453,14 @@
             </div>
         </div>
     </div>
-</div>
+</div>-->
 <!---->
 <!-------------------------------sec6---------------------------------->
 <div class="container-fluid">
     <div class="row">
         <div class="sec6">
             <div class="col-sm-12">
-                <div class="col-sm-6 col-md-offset-3 sec4-top">
+                <div class="col-sm-7 col-md-offset-2 sec4-top">
                     <span class="sec4-linea">Nuestras Instalaciones<hr></span>
                     <span class="sec4-titulo">
                         ¿Estás listo para nuestro recorrido virtual?
@@ -394,14 +485,11 @@
 <?php include_once('src/partial/footer.php'); ?>
 
 <script src="assets/js/jquery/jquery-3.2.1.min.js"></script>
-<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>-->
 <!-- Bootstrap -->
 <script src="assets/lib/bootstrap.min.js"></script>
-<!-- Bootbox -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/4.4.0/bootbox.min.js"></script>
+
 <!-- Slider -->
 <script src="js/jquery.bxslider.min.js"></script>
 <script src="js/auto-bxslider.js"></script>
 </body>
 </html>
-

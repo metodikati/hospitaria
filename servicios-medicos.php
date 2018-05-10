@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es" ng-app="MetodikaTI">
 <head>
     <meta charset="utf-8">
@@ -26,10 +26,9 @@ maximice el desarrollo social de la zona.">
     <?php include_once('src/partial/seo/fb-pixel.php'); ?>
 
     <!-- Title -->
-    <title>
-       HOSPITARIA -Servicios Médicos
-    </title>
-
+    <title>HOSPITARIA -Servicios Médicos</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    
     <!-- Preloader -->
     <link href="assets/css/preloader.css" rel="stylesheet" />
     <script src="assets/js/preloader.js"></script>
@@ -38,7 +37,7 @@ maximice el desarrollo social de la zona.">
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
 
     <!-- CSS -->
-    <link href="assets/css/main.css" rel="stylesheet" />
+    <link href="assets/css/main.min.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="assets/bxslider/jquery.bxslider.min.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -73,12 +72,12 @@ maximice el desarrollo social de la zona.">
 <!------------------------SEC1-------------->
     <div class="container-fluid">
         <div class="row">
-            <a href="#">
+            <a href="servicio-medico/maternidad.php">
                 <div class="col-md-4 col-sm-6 materni-dad">
-                    <div class="col-sm-10">
+                    <div class="col-sm-10 col-xs-9">
                         <p class="subtitle">Maternidad</p>
                     </div>
-                    <div class="col-sm-2 icono-flecha">
+                    <div class="col-sm-2 icono-flechaServiciosMedi">
                         <img src="assets/img/home/flecha-ir-btn.png" alt="flecha-ir-btn">
                     </div>
                 </div>
@@ -86,10 +85,10 @@ maximice el desarrollo social de la zona.">
 
             <a href="servicio-medico/urgencias.php">
                 <div class="col-md-4 col-sm-6 urgen-cias">
-                    <div class="col-sm-10">
+                    <div class="col-sm-10 col-xs-9">
                         <p class="subtitle">Urgencias</p>
                     </div>
-                    <div class="col-sm-2 icono-flecha">
+                    <div class="col-sm-2 icono-flechaServiciosMedi">
                         <img src="assets/img/home/flecha-ir-btn.png" alt="flecha">
                     </div>
                 </div>
@@ -97,20 +96,20 @@ maximice el desarrollo social de la zona.">
 
             <a href="servicio-medico/terapias-uci.php">
                 <div class="col-md-4 col-sm-6 terapias-uci">
-                    <div class="col-sm-10">
+                    <div class="col-sm-10 col-xs-9">
                         <p class="subtitle">Terapias UCI</p></div>
-                    <div class="col-sm-2 icono-flecha">
+                    <div class="col-sm-2 icono-flechaServiciosMedi">
                         <img src="assets/img/home/flecha-ir-btn.png" alt="btn-flecha">
                     </div>
                 </div>
             </a>
 
-            <a href="#">
+            <a href="servicio-medico/imagenologia.php">
                 <div class="col-md-4 col-sm-6 imageno-logia">
-                    <div class="col-sm-10">
+                    <div class="col-sm-10 col-xs-9">
                         <p class="subtitle">Imagenología</p>
                     </div>
-                    <div class="col-sm-2 icono-flecha">
+                    <div class="col-sm-2 icono-flechaServiciosMedi">
                         <img src="assets/img/home/flecha-ir-btn.png" alt="ir-flecha">
                     </div>
                 </div>
@@ -118,10 +117,10 @@ maximice el desarrollo social de la zona.">
 
             <a href="servicio-medico/hospitalizacion-quirofano.php">
                 <div class="col-md-4 col-sm-6 hospita-quiro">
-                    <div class="col-sm-10">
+                    <div class="col-sm-10 col-xs-9">
                         <p class="subtitle">Hospitalización y Quirófano</p>
                     </div>
-                    <div class="col-sm-2 icono-flecha">
+                    <div class="col-sm-2 icono-flechaServiciosMedi">
                         <img src="assets/img/home/flecha-ir-btn.png" alt="flecha">
                     </div>
                 </div>
@@ -129,34 +128,34 @@ maximice el desarrollo social de la zona.">
 
             <a href="servicio-medico/nutricion.php">
                 <div class="col-md-4 col-sm-6 nutri-cion">
-                    <div class="col-sm-10">
+                    <div class="col-sm-10 col-xs-9">
                         <p class="subtitle">Nutrición</p>   
                     </div>
-                    <div class="col-sm-2 icono-flecha">
+                    <div class="col-sm-2 icono-flechaServiciosMedi">
                         <img src="assets/img/home/flecha-ir-btn.png" alt="flec">
                     </div>
                 </div>
             </a>
-            <a href="#">
+            <a href="servicio-medico/laboratorio.php">
                 <div class="col-md-4 col-sm-6 labora-torio">
-                    <div class="col-sm-10">
+                    <div class="col-sm-10 col-xs-9">
                         <p class="subtitle">Laboratorio</p>   
                     </div>
-                    <div class="col-sm-2 icono-flecha">
+                    <div class="col-sm-2 icono-flechaServiciosMedi">
                         <img src="assets/img/home/flecha-ir-btn.png" alt="btn">
                     </div>
                 </div>
             </a>
-            <a href="#">
+            <!--<a href="#">
                 <div class="col-md-4 col-sm-6 check-ups">
                     <div class="col-sm-10">
                         <p class="subtitle">Check Ups</p>   
                     </div>
-                    <div class="col-sm-2 icono-flecha">
+                    <div class="col-sm-2 icono-flechaServiciosMedi">
                         <img src="assets/img/home/flecha-ir-btn.png" alt="btn-ir">
                     </div>
                 </div>
-            </a>
+            </a>-->
         </div>
     </div>
 

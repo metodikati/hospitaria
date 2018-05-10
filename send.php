@@ -1,5 +1,10 @@
-
+﻿
 <?php
+
+include_once('conexion.php');
+
+$db = new Conexion();
+$db->query('INSERT INTO `contacts`( `name`, `last_name`, `email`, `message`) VALUES ("'.$_POST['nombre'].'", "'.$_POST['apellidos'].'", "'.$_POST['email'].'", "'.$_POST['comentario'].'")');
 
 
 $headers = "From: Hospitaria <contacto@futurite.com> \r\n".
@@ -7,8 +12,8 @@ $headers = "From: Hospitaria <contacto@futurite.com> \r\n".
 			"MIME-Version: 1.0\r\n";
 			'X-Mailer: PHP/' . phpversion();
 
-$email_to = "magaly.lopez@metodika.mx, fernando.garza@hospitaria.com, adrian.garza@metodika.mx";
-
+//$email_to = "fernando.garza@hospitaria.com, leadsclientes@futurite.com, ing.magalylf@hotmail.com, magaly.lopez@metodika.mx";
+$email_to = "hospitaria@futurite.com, leadsclientes@futurite.com";
 
 
 $asunto ="Hospitaria";
@@ -23,7 +28,7 @@ if(@mail($email_to, $asunto, $mensaje, $headers))
 {
     echo'<script>
 			alert("Tu Mensaje se ha enviado");
-			window.location.href="contacto.php";
+			window.location.href="gracias.php";
 		</script>';
 			}
 	else{

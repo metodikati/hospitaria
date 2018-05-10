@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es" ng-app="MetodikaTI">
 <head>
     <meta charset="utf-8">
@@ -34,7 +34,7 @@
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
 
     <!-- CSS -->
-    <link href="assets/css/main.css" rel="stylesheet" />
+    <link href="assets/css/main.min.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="assets/bxslider/jquery.bxslider.min.css">
     <link rel="stylesheet" type="text/css" href="http://www.hospitaria.com/mincache/util/foundation/css/foundation___css---libraries/styles/1/1/system___css---libraries/styles/1/1/1-1492634355.css" media="screen" />
 

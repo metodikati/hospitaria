@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es" ng-app="MetodikaTI">
 <head>
     <meta charset="utf-8">
@@ -39,7 +39,7 @@ maximice el desarrollo social de la zona.">
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
 
     <!-- CSS -->
-    <link href="assets/css/main.css" rel="stylesheet" />
+    <link href="assets/css/main.min.css" rel="stylesheet" />
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -79,7 +79,12 @@ maximice el desarrollo social de la zona.">
         </div>
     </div>
 <!------------------------SEC1-------------->
-
+    <div class="container">
+        <div class="mapa-tamaño  col-sm-offset-1">
+            <div id="map" class="map"></div> 
+        </div>
+        
+    </div>
     <div class="container"><br>
        <div class="col-sm-8 col-md-8  col-sm-offset-1">
           <span class="sec1-lineaCirujia">Contacto<hr></span>
@@ -102,7 +107,7 @@ maximice el desarrollo social de la zona.">
                         <input type="text" id="email" class="form-control" name="email" placeholder="Correo Electronico*" required>
                     </div>
                     <div class="col-sm-10 col-md-10">
-                        <input type="text" name="comentario" class="form-control"  placeholder="Mensaje">
+                        <input type="text" name="comentario" class="form-control"  placeholder="Mensaje" required="required">
                     </div>
                     <div class="col-sm-10 col-md-10">
                         <p></p>
@@ -114,14 +119,9 @@ maximice el desarrollo social de la zona.">
                         <button type="submit" class="btn btn-success">Enviar</button>
                     </div>
                 </div>
-            </div>
-        </form>
-    </div>
-    <div class="container">
-        <div class="mapa-tamaño  col-sm-offset-1">
-            <div id="map" class="map"></div> 
         </div>
-        
+
+        </form>
     </div>
 <!---->
     <?php include_once('src/partial/footer.php'); ?>

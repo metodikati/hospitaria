@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 //Variable que contendrá el número de resgistros encontrados
 $registros = '';
 if($_POST){
@@ -50,7 +50,7 @@ maximice el desarrollo social de la zona.">
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
 
     <!-- CSS -->
-    <link href="assets/css/main.css" rel="stylesheet" />
+    <link href="assets/css/main.min.css" rel="stylesheet" />
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -65,6 +65,19 @@ maximice el desarrollo social de la zona.">
     <script src="js/bootstrap.min.js"></script>
 
     <?php include_once('src/partial/seo/analytics.php'); ?>
+    <!--Start Redes Sociales-->
+    <script type="application/ld+json">
+    {
+        "@context" : "http://schema.org",
+        "@type" : "Organization",
+        "name" : "Hospitaria",
+        "url" : "https://www.hospitaria.com/",
+        "sameAs" : [
+        "https://plus.google.com/+Hospitaria"
+        ]
+    }
+    </script>
+     <!--End Redes Sociales-->
 </head>
 
 <body>

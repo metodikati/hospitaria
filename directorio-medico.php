@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 //Variable que contendrá el número de resgistros encontrados
 $registros = '';
 
@@ -11,7 +11,7 @@ if($_POST){
 }
 ?>
 <?php error_reporting(0);
-include_once("partial/header.php"); 
+include_once("partial/header.php");
 include_once("consultas.php"); 
 $_dato = new Consultas(); 
 $dato = $_dato->consultaEspecialidad();
@@ -56,7 +56,7 @@ maximice el desarrollo social de la zona.">
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
 
     <!-- CSS -->
-    <link href="assets/css/main.css" rel="stylesheet" />
+    <link href="assets/css/main.min.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="assets/bxslider/jquery.bxslider.min.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -150,7 +150,9 @@ maximice el desarrollo social de la zona.">
 <!---->
     <?php include_once('src/partial/footer.php'); ?>
 <script src="assets/js/jquery/jquery-3.2.1.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<script src="assets/js/bxslider/jquery.bxslider.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <!-- Bootstrap -->
 <script src="assets/lib/bootstrap.min.js"></script>
 <!-- Bootbox -->

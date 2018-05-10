@@ -1,0 +1,12 @@
+[04-Dec-2017 22:23:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/hospitaria/public_html/admin/config/database.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/hospitaria/public_html/admin/config/database.php on line 16
+[04-Dec-2017 22:23:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/hospitaria/public_html/admin/config/mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/hospitaria/public_html/admin/config/mail.php on line 19
+[04-Dec-2017 22:23:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/hospitaria/public_html/admin/config/mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/hospitaria/public_html/admin/config/mail.php on line 19

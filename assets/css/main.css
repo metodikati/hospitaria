@@ -1,4 +1,4 @@
-
+﻿
  html, body{  width: 100%; height: 100%; padding: 0px; margin: 0px; font-family: 'antenna-cond' !important;}
 
  @font-face{ 
@@ -23,7 +23,13 @@
 .home_slider{
     padding-bottom: 5px;
 }
-
+.sec4-1{
+    background: url(../img/home/sec4.jpg)center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 0px;
+    min-height: 655px;
+}
 body {
     font-size: 17px;
 }
@@ -100,7 +106,7 @@ header .submenu{
     margin-top: -2px;
 }
 .navbar-default .navbar-nav>li>a {
-    color: #131212;
+    color: black;
     margin-right: 9px;
     font-size: 18px;
     font-family: antenna-cond;
@@ -141,7 +147,7 @@ header {
     background-color: rgba(255, 255, 255, -0.2)!important;
     width: 104px;
     height: 35px;
-    border: 1px solid #0f0e0e;
+    border: 1px solid black;
     border-radius: 9px;
     margin-top: -7%;
 }
@@ -183,8 +189,8 @@ header.small .text-right{
     padding-top: 1px;
 }
 /* Transitions */
-.menu_menu a{
-    color: #f70404;
+.menu_menu a {
+    color: red;
 }
 .navbar-default {
     text-transform: uppercase;
@@ -200,7 +206,7 @@ header.small .text-right{
     margin-left: auto;
 }
 .top-header {
-    color: #ef0d0d;
+    color: red;
     font-weight: bold;
     padding: 1px 15px;
     font-size: 20px;
@@ -283,6 +289,15 @@ header.small .text-right{
 .subtitle-abajo{
     color: white;
     font-size: 16px;
+}
+.subtitleNosotros {
+    color: white;
+    font-family: 'antenna-black';
+    font-size: 25px;
+    padding-top: 90px;
+}
+.icono-flecha-nosotros {
+    padding-top: 90px;
 }
 .bx-wrapper .bx-pager.bx-default-pager a.active, .bx-wrapper .bx-pager.bx-default-pager a:focus, .bx-wrapper .bx-pager.bx-default-pager a:hover {
     background: white;
@@ -858,6 +873,12 @@ footer .textFooter{
     font-size: 60px;
     font-family: 'antenna-black'; 
 }
+.especialidad {
+    color: white;
+    padding-top: 30%;
+    font-size: 60px;
+    font-family: 'antenna-black';
+}
 .especialidad1{
     color: white;
     padding-top: 1%;
@@ -1267,6 +1288,9 @@ footer .textFooter{
 /* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
 /*                CHECK UPS                     */
 /* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+.icono-flechaServiciosMedi{
+    padding-top: 80px;
+}
 .sec1-check {
     background: url("../img/servicios-medicos/check-banner.jpg") center center no-repeat;
     background-size: cover;
@@ -1623,6 +1647,25 @@ footer .textFooter{
     width: 100%; 
     min-height: 600px;
 }
+.sec3-imagenologiaServiciosMedicos {
+    background: url("../img/servicios-medicos/franja-imagenologia-img.png") center right no-repeat;
+    background-size: cover;
+    display: inline-block;
+    width: 100%; 
+    min-height: 480px;
+}
+.contacto-imagenologiaServiciosMedicos{
+    background: url("../img/servicios-medicos/contactanos-imagenologia-img.jpg") center center no-repeat;
+    background-size: cover;
+    width: 100%; 
+    min-height: 300px;
+}
+.banner-imagenologiaServiciosMedicos {
+    background: url("../img/servicios-medicos/imagenologia-banner-img.jpg") top center no-repeat;
+    background-size: cover;
+    width: 100%; 
+    min-height: 500px;
+}
 .parrafo-imagenologia {
     font-size: 18px;
     font-family: 'antenna-cond' !important;
@@ -1799,6 +1842,13 @@ footer .textFooter{
     text-align: center;
 }
 @media (max-width: 1400px) and (min-width: 990px) {
+
+    .banner-imagenologiaServiciosMedicos {
+        background: url("../img/servicios-medicos/imagenologia-banner-img.jpg") top center no-repeat;
+        background-size: cover;
+        width: 100%; 
+        min-height: 450px;
+    }
     .sec1-quienes-somos {
         background: url("../img/nosotros/quinesSomos/banner.jpg") center left no-repeat;
         background-size: cover;
@@ -1932,11 +1982,54 @@ footer .textFooter{
 /*          Materidad                           */
 /* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
 .sec1-maternidad {
-    background: url("../img/servicios-medicos/maternidad-banner.jpg") center right no-repeat;
+    background: url("../img/servicios-medicos/maternidad-banner.jpg") center top no-repeat;
+    background-size: cover;
+    width: 100%; 
+    min-height: 500px;
+}
+.subtitleShowMaternidad {
+    color: white;
+    font-family: 'antenna-black';
+    font-size: 20px;
+}
+
+.fondoShowDiv1 {
+    background: #26aade;
+    height: 63px;
+}
+.sec3-maternidad {
+    background: url("../img/servicios-medicos/franja-maternidad-img.png") center right no-repeat;
     background-size: cover;
     display: inline-block;
     width: 100%; 
-    min-height: 400px;
+    min-height: 500px;
+}
+.sec4-incluye-textos{
+    padding-top: 30px;
+}
+.sec1-maternidad-top {
+    padding-top: 10px;
+    font-size: 30px;
+    color: #525557;
+    font-family: 'antenna-black';
+}
+.img-flecha-expandir{
+    height: 30px;
+}
+.incluye-saltos{
+    padding-bottom: 30px;
+}
+.informacion-maternidad{
+    .padding-top: 20px;
+}
+.incluye-honorarios{
+    color: #26aade;
+}
+.sec1gine2Maternidad {
+    padding-top: 80px;
+    font-size: 15px;
+    color: #525557;
+    font-family: 'antenna-black';
 }
 .parrafo-maternidad{
     font-size: 14px;
@@ -2570,7 +2663,7 @@ footer .textFooter{
     color: white;
     font-size: 60px;
     font-family: 'antenna-black';
-    padding-top: 330px;
+    padding-top: 245px;
 }
 .sec3-quirofanoN{
     background: url("../img/servicios-medicos/circulo.png") center center no-repeat;
@@ -2735,7 +2828,8 @@ a:hover {
   height: 50px;
   width: 50px;
 }
-@media (max-width: 1200px) and (min-width: 990px) {}
+@media (max-width: 1200px) and (min-width: 990px) {
+}
 @media (max-width: 989px) and (min-width: 768px) {}
 @media (max-width: 767px) and (min-width: 480px) {}
 @media (max-width: 479px) and (min-width: 0px) {
@@ -3021,4 +3115,336 @@ a:hover {
         min-height: 300px;
         margin-bottom: -6px;
     }
+}
+
+
+/*Celular*/
+@media (max-width: 1200px) and (min-width: 990px) {}
+@media (max-width: 1000px) and (min-width: 900px) {
+    .img_menu {
+        background: url(../img/home/icono-responsive.png) center left no-repeat;
+        min-height: 135px;
+        width: 266px;
+        margin-top: -51px;
+        padding-left: 50%;
+    }
+    .navbar-default .navbar-nav>li>a {
+        color: white;
+        margin-right: 9px;
+        font-size: 16px;
+        font-family: antenna-cond;
+        text-transform: capitalize;
+    }
+    header .nav li a {
+        color: #fff;
+        padding: 2px 12px 5px 12px;
+        display: block;
+        font-size: 15px;
+        text-transform: capitalize;
+        width: 100%;
+        text-align: left;
+        font-family: 'antenna-cond';
+    }
+    header.small .contacto {
+        background-color: rgba(255, 255, 255, -0.2)!important;
+        width: 90px;
+        height: 30px;
+        border: 1px solid #fff;
+        border-radius: 9px;
+        margin-top: -7%;
+    }
+    .sec3-maternidad {
+        background: url(../img/servicios-medicos/franja-maternidad-img.png) left no-repeat;
+        background-size: cover;
+        display: inline-block;
+        width: 100%;
+        min-height: 800px;
+    }
+    .sec2Check {
+        margin-bottom: -231px;
+    }
+    .sec1gine2Maternidad {
+        padding-top: 210px;
+        font-size: 15px;
+        color: #525557;
+        font-family: 'antenna-black';
+    }
+    .sec4-incluye-textos {
+        padding-top: 0px;
+        margin-top: -176px;
+    }
+}
+@media (max-width: 899px) and (min-width: 800px) {
+    .img_menu {
+        background: url(../img/home/icono-responsive.png) center left no-repeat;
+        min-height: 135px;
+        width: 266px;
+        margin-top: -51px;
+        padding-left: 50%;
+    }
+    .text-right {
+        padding-top: 0px;
+        margin-right: 50px;
+    }
+    .navbar-right {
+        float: right!important;
+        margin-right: 30px;
+    }
+    .navbar-default .navbar-nav>li>a {
+        color: white;
+        margin-right: 1px;
+        font-size: 15px;
+        font-family: antenna-cond;
+        text-transform: capitalize;
+    }
+    header .nav li a {
+        color: #fff;
+        padding: 2px 12px 5px 12px;
+        display: block;
+        font-size: 15px;
+        text-transform: capitalize;
+        width: 100%;
+        text-align: left;
+        font-family: 'antenna-cond';
+    }
+    .contacto {
+        background-color: rgba(255, 255, 255, -0.2)!important;
+        width: 90px;
+        height: 30px;
+        border: 1px solid #fff;
+        border-radius: 9px;
+        margin-top: -7%;
+    }
+    header.small .img_menu {
+        background: url(../img/home/logo-responsivo.png) center left no-repeat;
+        width: 365px;
+    }
+    header.small .navbar-default .navbar-nav>li>a {
+        color: black;
+        margin-right: 9px;
+        font-size: 15px;
+        font-family: antenna-cond;
+        text-transform: capitalize;
+    }
+    header.small .nav li a {
+        color: black;
+        padding: 2px 12px 5px 12px;
+        display: block;
+        font-size: 15px;
+        text-transform: capitalize;
+        width: 100%;
+        text-align: left;
+    }
+    header.small .contacto {
+        background-color: rgba(255, 255, 255, -0.2)!important;
+        width: 90px;
+        height: 30px;
+        border: 1px solid black;
+        border-radius: 9px;
+        margin-top: -7%;
+    }
+
+}
+@media (max-width: 767px) and (min-width: 480px) {}
+@media (max-width: 479px) and (min-width: 0px) {
+    /*Maternidad*/
+    .sec1-maternidad {
+        background: url(../img/servicios-medicos/maternidad-banner.jpg) center top no-repeat;
+        background-size: cover;
+        width: 100%;
+        min-height: 390px;
+    }
+    .sec3-maternidad {
+        background: url(../img/servicios-medicos/franja-maternidad-img.png)center left no-repeat;
+        background-size: cover;
+        display: inline-block;
+        width: 100%;
+        min-height: 600px;
+        margin-top: -160px;
+        margin-bottom: -150px;
+    }
+    .subtitleShowMaternidad {
+        color: white;
+        font-family: 'antenna-black';
+        font-size: 15px;
+    }
+    .img-flecha-expandir {
+        height: 20px;
+    }
+    .sec1gine2Maternidad {
+        padding-top: 130px;
+        font-size: 15px;
+        color: #525557;
+        font-family: 'antenna-black';
+    }
+}
+
+
+
+
+
+/* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+/*           LABORATORIO                        */
+/* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+.sec1-laboratorio-banner {
+    background: url(../img/servicios-medicos/laboratorio-banner-img.jpg) center top no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 550px;
+}
+.especialidadLaboratorio {
+    color: white;
+    font-size: 60px;
+    font-family: 'antenna-black';
+    padding-top: 220px;
+}
+.sec3-laboratorio-franja {
+    background: url("../img/servicios-medicos/franja-laboratorio-img.png") center right no-repeat;
+    background-size: cover;
+    display: inline-block;
+    width: 100%; 
+    min-height: 600px;
+}
+.sec1gine2Maternidad ol, ul {
+    font-size: 16px;
+    font-family: 'antenna-cond';
+}
+.sec1gine2Laboratorio-franja {
+    padding-top: 20px;
+    font-size: 17px;
+    color: #525557;
+    font-family: 'antenna-black';
+}
+.sec4-laboratorio-parra{
+
+}
+.notaLaboratorio{
+    color: red;
+}
+.anexoLleva-laboratorio {
+    color: #26aade;
+    font-size: 23px;
+    font-family: 'antenna-black';
+}
+.contacto-laboratorio-contacto{
+    background: url("../img/servicios-medicos/contactanos-laboratorio-img.jpg") center center no-repeat;
+    background-size: cover;
+    width: 100%; 
+    min-height: 400px;
+}
+
+
+@media (max-width: 1200px) and (min-width: 990px) {
+@media (max-width: 989px) and (min-width: 768px) {}
+@media (max-width: 1100px) and (min-width: 1000px) {
+    .navbar-header {
+        margin-top: -60px;
+    }
+    .sec1gine2Laboratorio-franja .col-md-6 {
+        width: 80%;
+    }
+    .sec1gine2Laboratorio-franja {
+        padding-top: 80px;
+        font-size: 17px;
+        color: #525557;
+        font-family: 'antenna-black';
+    }
+    .img_menu {
+        background: url(../img/home/icono-responsive.png) center left no-repeat;
+        min-height: 135px;
+        width: 307px;
+        margin-top: -22px;
+        padding-left: 50%;
+    }
+    header.small .img_menu {
+        background: url(../img/home/logo-responsivo.png) center left no-repeat;
+        width: 600px;
+    }
+    .sec1medicInterna-text {
+        padding-top: 135px;
+        font-size: 15px;
+        color: #525557;
+        font-family: 'antenna-black';
+    }
+    .sec3-medicInterna {
+        background: url(../img/especialidades/medicina-interna-franja.png) left center no-repeat;
+        background-size: cover;
+        width: 100%;
+        min-height: 520px;
+        margin-top: -118px;
+    }
+}
+
+
+@media (max-width: 900px) and (min-width: 800px) {
+    .sec3-laboratorio-franja {
+        background: url(../img/servicios-medicos/franja-laboratorio-img.png) center left no-repeat;
+        background-size: cover;
+        display: inline-block;
+        width: 100%;
+        min-height: 500px;
+    }
+    .sec1gine2Laboratorio-franja {
+        padding-top: 42px;
+        font-size: 17px;
+        color: #525557;
+        font-family: 'antenna-black';
+    }
+    .subtitleNosotros {
+        color: white;
+        font-family: 'antenna-black';
+        font-size: 20px;
+        padding-top: 90px;
+    }
+}
+@media (max-width: 799px) and (min-width: 699px) {
+    .img_menu {
+        background: url(../img/home/icono-responsive.png) center left no-repeat;
+        min-height: 135px;
+        width: 307px;
+        margin-top: -45px;
+        padding-left: 50%;
+    }
+    .navbar-right {
+        float: right!important;
+        margin-right: 30px;
+    }
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        border-color: #e7e7e7;
+        margin-top: 0px;
+    }
+    .sec3-laboratorio-franja {
+        background: url(../img/servicios-medicos/franja-laboratorio-img.png) center left no-repeat;
+        background-size: cover;
+        display: inline-block;
+        width: 100%;
+        min-height: 600px;
+    }
+    .text1-contacto {
+        color: white;
+        padding-top: 90px;
+        font-size: 40px;
+        text-align: center;
+    }
+}
+@media (max-width: 479px) and (min-width: 0px) {
+    .especialidadLaboratorio {
+        color: white;
+        font-size: 30px;
+        font-family: 'antenna-black';
+        padding-top: 220px;
+    }
+    .sec3-laboratorio-franja {
+        background: url(../img/servicios-medicos/franja-laboratorio-img.png) center no-repeat;
+        background-size: cover;
+        display: inline-block;
+        width: 100%;
+        min-height: 800px;
+    }
+    .subtitleShow {
+        color: white;
+        font-family: 'antenna-black';
+        font-size: 12px;
+    }
+
 }
