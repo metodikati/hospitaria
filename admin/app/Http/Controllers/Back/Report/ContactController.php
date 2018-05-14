@@ -121,7 +121,7 @@ class ContactController extends Controller
 
     public function getHome_list()
     {
-        $emails = Contact::orderBy('name')->get();
+        $emails = Contact::orderBy('name')->orderBy("id", "DESC")->get();
         return view('back.product.email.home', ['emails' => $emails, 'centinel' => 1]);
     }
 

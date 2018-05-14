@@ -58,7 +58,7 @@
                             <td>{{$email->last_name}}</td>
                             <td>{{$email->email}}</td>
                             <td>{{$email->message}}</td>
-                            <td>{{$email->created_at->format('d/m/Y')}}</td>
+                            <td>{{$email->created_at->format('d/m/Y H:i')}}</td>
                         </tr>
                         @endforeach
                         </tbody>
